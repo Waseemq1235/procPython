@@ -26,8 +26,10 @@ The script will generate JSON files in the ../index directory (or whichever dire
 
 2. **Search Tool:**
 
-Simply run:
+Run:
+
 `python search_tool.py`
+
 You will be presented with a GUI where you can input search queries, choose which JSON files to search through, and decide on the type of search (Standard/Fuzzy).
 
 # 🤝 Contributing
