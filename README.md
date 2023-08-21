@@ -30,8 +30,8 @@ Simply run:
 `python search_tool.py`
 You will be presented with a GUI where you can input search queries, choose which JSON files to search through, and decide on the type of search (Standard/Fuzzy).
 
-🤝 Contributing
+# 🤝 Contributing
 Pull requests are welcome.
 
-❗ Issues
+# ❗ Issues
 If you encounter any issues or have feature requests, file them in the issues section of the repo.
