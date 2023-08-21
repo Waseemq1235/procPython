@@ -26,11 +26,21 @@ class SearchTool:
 
         if self.search_type.get() == "Fuzzy":
             matches = process.extract(query, [proc['full_path'] for proc in procs_to_search], limit=20)  # Top 20 matches
+
+            # Group matches by their file_location
+            file_proc_dict = {}
             for match in matches:
                 matched_string = match[0]
                 matched_proc = next((proc for proc in procs_to_search if proc['full_path'] == matched_string), None)
                 if matched_proc:
-                    self.results.insert(tk.END, f"{matched_proc['full_path']}\n")
+                    if matched_proc['file_location'] not in file_proc_dict:
+                        file_proc_dict[matched_proc['file_location']] = []
+                    file_proc_dict[matched_proc['file_location']].append(matched_proc['full_path'])
+
+            for file, procs in file_proc_dict.items():
+                self.results.insert(tk.END, f"\nFile: {file}\n")
+                for proc in procs:
+                    self.results.insert(tk.END, f"  {proc}\n")
         else:  # Standard search
             matches = [proc for proc in procs_to_search if query in proc['full_path']]
             displayed_files = set()
