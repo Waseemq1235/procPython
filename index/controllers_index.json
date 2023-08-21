@@ -1,0 +1,3174 @@
+[
+    {
+        "proc_name": "setup_shuttle_docks",
+        "full_path": "/datum/controller/shuttle_controller/proc/setup_shuttle_docks()",
+        "file_location": "./code\\controllers\\shuttle_controller.dm",
+        "line_number": 207,
+        "arguments": [],
+        "comment": "This is called by gameticker after all the machines and radio frequencies have been properly initialized"
+    },
+    {
+        "proc_name": "check",
+        "full_path": "/datum/light_source/proc/check()",
+        "file_location": "./code\\controllers\\_DynamicAreaLighting_TG.dm",
+        "line_number": 95,
+        "arguments": [],
+        "comment": "Check a light to see if its effect needs reprocessing. If it does, remove any old effect and create a new one"
+    },
+    {
+        "proc_name": "changed",
+        "full_path": "/datum/light_source/proc/changed()",
+        "file_location": "./code\\controllers\\_DynamicAreaLighting_TG.dm",
+        "line_number": 125,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "remove_effect",
+        "full_path": "/datum/light_source/proc/remove_effect()",
+        "file_location": "./code\\controllers\\_DynamicAreaLighting_TG.dm",
+        "line_number": 135,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "SetLuminosity",
+        "full_path": "/atom/proc/SetLuminosity(new_luminosity, trueLum = FALSE, atom/source)",
+        "file_location": "./code\\controllers\\_DynamicAreaLighting_TG.dm",
+        "line_number": 180,
+        "arguments": [
+            "new_luminosity",
+            "trueLum = FALSE",
+            "atom/source"
+        ],
+        "comment": "if we have a light already it is merely updated, rather than making a new one."
+    },
+    {
+        "proc_name": "remove_luminosity_source",
+        "full_path": "/mob/proc/remove_luminosity_source(atom/source)",
+        "file_location": "./code\\controllers\\_DynamicAreaLighting_TG.dm",
+        "line_number": 217,
+        "arguments": [
+            "atom/source"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "SetOpacity",
+        "full_path": "/atom/proc/SetOpacity(new_opacity)",
+        "file_location": "./code\\controllers\\_DynamicAreaLighting_TG.dm",
+        "line_number": 226,
+        "arguments": [
+            "new_opacity"
+        ],
+        "comment": "change our opacity (defaults to toggle), and then update all lights that affect us."
+    },
+    {
+        "proc_name": "update_lumcount",
+        "full_path": "/turf/proc/update_lumcount(amount, removing = 0)",
+        "file_location": "./code\\controllers\\_DynamicAreaLighting_TG.dm",
+        "line_number": 263,
+        "arguments": [
+            "amount",
+            "removing = 0"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "lighting_tag",
+        "full_path": "/turf/proc/lighting_tag(const/level)",
+        "file_location": "./code\\controllers\\_DynamicAreaLighting_TG.dm",
+        "line_number": 270,
+        "arguments": [
+            "const/level"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "build_lighting_area",
+        "full_path": "/turf/proc/build_lighting_area(const/tag, const/level)",
+        "file_location": "./code\\controllers\\_DynamicAreaLighting_TG.dm",
+        "line_number": 274,
+        "arguments": [
+            "const/tag",
+            "const/level"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "shift_to_subarea",
+        "full_path": "/turf/proc/shift_to_subarea()",
+        "file_location": "./code\\controllers\\_DynamicAreaLighting_TG.dm",
+        "line_number": 297,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "SetLightLevel",
+        "full_path": "/area/proc/SetLightLevel(light)",
+        "file_location": "./code\\controllers\\_DynamicAreaLighting_TG.dm",
+        "line_number": 336,
+        "arguments": [
+            "light"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "SetDynamicLighting",
+        "full_path": "/area/proc/SetDynamicLighting()",
+        "file_location": "./code\\controllers\\_DynamicAreaLighting_TG.dm",
+        "line_number": 353,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "InitializeLighting",
+        "full_path": "/area/proc/InitializeLighting()",
+        "file_location": "./code\\controllers\\_DynamicAreaLighting_TG.dm",
+        "line_number": 358,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "UpdateAffectingLights",
+        "full_path": "/atom/proc/UpdateAffectingLights()",
+        "file_location": "./code\\controllers\\_DynamicAreaLighting_TG.dm",
+        "line_number": 377,
+        "arguments": [],
+        "comment": "This proc can cause lots of lights to be updated. :("
+    },
+    {
+        "proc_name": "get_light_range",
+        "full_path": "/atom/proc/get_light_range()",
+        "file_location": "./code\\controllers\\_DynamicAreaLighting_TG.dm",
+        "line_number": 392,
+        "arguments": [],
+        "comment": "caps luminosity effects max-range based on what type the light's owner is."
+    },
+    {
+        "proc_name": "admin_reload",
+        "full_path": "/datum/controller/configuration/proc/admin_reload()",
+        "file_location": "./code\\controllers\\configuration\\configuration.dm",
+        "line_number": 25,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "Load",
+        "full_path": "/datum/controller/configuration/proc/Load(_directory)",
+        "file_location": "./code\\controllers\\configuration\\configuration.dm",
+        "line_number": 35,
+        "arguments": [
+            "_directory"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "loadmaplist",
+        "full_path": "/datum/controller/configuration/proc/loadmaplist(filename, maptype)",
+        "file_location": "./code\\controllers\\configuration\\configuration.dm",
+        "line_number": 62,
+        "arguments": [
+            "filename",
+            "maptype"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "full_wipe",
+        "full_path": "/datum/controller/configuration/proc/full_wipe()",
+        "file_location": "./code\\controllers\\configuration\\configuration.dm",
+        "line_number": 120,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "InitEntries",
+        "full_path": "/datum/controller/configuration/proc/InitEntries()",
+        "file_location": "./code\\controllers\\configuration\\configuration.dm",
+        "line_number": 141,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "RemoveEntry",
+        "full_path": "/datum/controller/configuration/proc/RemoveEntry(datum/config_entry/CE)",
+        "file_location": "./code\\controllers\\configuration\\configuration.dm",
+        "line_number": 162,
+        "arguments": [
+            "datum/config_entry/CE"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "LoadEntries",
+        "full_path": "/datum/controller/configuration/proc/LoadEntries(filename, list/stack = list()",
+        "file_location": "./code\\controllers\\configuration\\configuration.dm",
+        "line_number": 167,
+        "arguments": [
+            "filename",
+            "list/stack = list("
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "Get",
+        "full_path": "/datum/controller/configuration/proc/Get(entry_type)",
+        "file_location": "./code\\controllers\\configuration\\configuration.dm",
+        "line_number": 261,
+        "arguments": [
+            "entry_type"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "Set",
+        "full_path": "/datum/controller/configuration/proc/Set(entry_type, new_val)",
+        "file_location": "./code\\controllers\\configuration\\configuration.dm",
+        "line_number": 275,
+        "arguments": [
+            "entry_type",
+            "new_val"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "LoadModes",
+        "full_path": "/datum/controller/configuration/proc/LoadModes()",
+        "file_location": "./code\\controllers\\configuration\\configuration.dm",
+        "line_number": 289,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "pick_mode",
+        "full_path": "/datum/controller/configuration/proc/pick_mode(mode_name)",
+        "file_location": "./code\\controllers\\configuration\\configuration.dm",
+        "line_number": 304,
+        "arguments": [
+            "mode_name"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "LoadChatFilter",
+        "full_path": "/datum/controller/configuration/proc/LoadChatFilter()",
+        "file_location": "./code\\controllers\\configuration\\configuration.dm",
+        "line_number": 313,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "DelayedMessageAdmins",
+        "full_path": "/datum/controller/configuration/proc/DelayedMessageAdmins(text)",
+        "file_location": "./code\\controllers\\configuration\\configuration.dm",
+        "line_number": 331,
+        "arguments": [
+            "text"
+        ],
+        "comment": "Message admins when you can."
+    },
+    {
+        "proc_name": "LoadTopicRateWhitelist",
+        "full_path": "/datum/controller/configuration/proc/LoadTopicRateWhitelist()",
+        "file_location": "./code\\controllers\\configuration\\configuration.dm",
+        "line_number": 334,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "VASProcCallGuard",
+        "full_path": "/datum/config_entry/proc/VASProcCallGuard(str_val)",
+        "file_location": "./code\\controllers\\configuration\\config_entry.dm",
+        "line_number": 44,
+        "arguments": [
+            "str_val"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "ValidateAndSet",
+        "full_path": "/datum/config_entry/proc/ValidateAndSet(str_val)",
+        "file_location": "./code\\controllers\\configuration\\config_entry.dm",
+        "line_number": 49,
+        "arguments": [
+            "str_val"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "ValidateListEntry",
+        "full_path": "/datum/config_entry/proc/ValidateListEntry(key_name, key_value)",
+        "file_location": "./code\\controllers\\configuration\\config_entry.dm",
+        "line_number": 53,
+        "arguments": [
+            "key_name",
+            "key_value"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "DeprecationUpdate",
+        "full_path": "/datum/config_entry/proc/DeprecationUpdate(value)",
+        "file_location": "./code\\controllers\\configuration\\config_entry.dm",
+        "line_number": 56,
+        "arguments": [
+            "value"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "increase_larva_after_burst",
+        "full_path": "/datum/hive_status/proc/increase_larva_after_burst()",
+        "file_location": "./code\\controllers\\configuration\\entries\\game_options.dm",
+        "line_number": 121,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "cleanup",
+        "full_path": "/obj/effect/statclick/proc/cleanup()",
+        "file_location": "./code\\controllers\\mc\\admin.dm",
+        "line_number": 19,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "update",
+        "full_path": "/obj/effect/statclick/proc/update(text)",
+        "file_location": "./code\\controllers\\mc\\admin.dm",
+        "line_number": 23,
+        "arguments": [
+            "text"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "restart_controller",
+        "full_path": "/client/proc/restart_controller(controller in list(\"Master\", \"Failsafe\")",
+        "file_location": "./code\\controllers\\mc\\admin.dm",
+        "line_number": 49,
+        "arguments": [
+            "controller in list(\"Master\"",
+            "\"Failsafe\""
+        ],
+        "comment": "Debug verbs."
+    },
+    {
+        "proc_name": "debug_controller",
+        "full_path": "/client/proc/debug_controller()",
+        "file_location": "./code\\controllers\\mc\\admin.dm",
+        "line_number": 66,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "debug_role_authority",
+        "full_path": "/client/proc/debug_role_authority()",
+        "file_location": "./code\\controllers\\mc\\admin.dm",
+        "line_number": 95,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "Initialize",
+        "full_path": "/datum/controller/proc/Initialize()",
+        "file_location": "./code\\controllers\\mc\\controller.dm",
+        "line_number": 6,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "Shutdown",
+        "full_path": "/datum/controller/proc/Shutdown()",
+        "file_location": "./code\\controllers\\mc\\controller.dm",
+        "line_number": 9,
+        "arguments": [],
+        "comment": "cleanup actions"
+    },
+    {
+        "proc_name": "StartLoadingMap",
+        "full_path": "/datum/controller/proc/StartLoadingMap()",
+        "file_location": "./code\\controllers\\mc\\controller.dm",
+        "line_number": 12,
+        "arguments": [],
+        "comment": "when we enter dmm_suite.load_map"
+    },
+    {
+        "proc_name": "StopLoadingMap",
+        "full_path": "/datum/controller/proc/StopLoadingMap()",
+        "file_location": "./code\\controllers\\mc\\controller.dm",
+        "line_number": 15,
+        "arguments": [],
+        "comment": "when we exit dmm_suite.load_map"
+    },
+    {
+        "proc_name": "Recover",
+        "full_path": "/datum/controller/proc/Recover()",
+        "file_location": "./code\\controllers\\mc\\controller.dm",
+        "line_number": 17,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "stat_entry",
+        "full_path": "/datum/controller/proc/stat_entry(msg)",
+        "file_location": "./code\\controllers\\mc\\controller.dm",
+        "line_number": 19,
+        "arguments": [
+            "msg"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "Loop",
+        "full_path": "/datum/controller/failsafe/proc/Loop()",
+        "file_location": "./code\\controllers\\mc\\failsafe.dm",
+        "line_number": 60,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "emergency_loop",
+        "full_path": "/datum/controller/failsafe/proc/emergency_loop()",
+        "file_location": "./code\\controllers\\mc\\failsafe.dm",
+        "line_number": 127,
+        "arguments": [],
+        "comment": "Loop is driven externally so runtimes only cancel the current recovery attempt"
+    },
+    {
+        "proc_name": "recover_all_SS_and_recreate_master",
+        "full_path": "proc/recover_all_SS_and_recreate_master()",
+        "file_location": "./code\\controllers\\mc\\failsafe.dm",
+        "line_number": 148,
+        "arguments": [],
+        "comment": "/Recreate all SSs which will still cause data survive due to Recover(), the new Master will then find and take them from global.vars"
+    },
+    {
+        "proc_name": "delete_all_SS_and_recreate_master",
+        "full_path": "proc/delete_all_SS_and_recreate_master()",
+        "file_location": "./code\\controllers\\mc\\failsafe.dm",
+        "line_number": 163,
+        "arguments": [],
+        "comment": "/Delete all existing SS to basically start over"
+    },
+    {
+        "proc_name": "defcon_pretty",
+        "full_path": "/datum/controller/failsafe/proc/defcon_pretty()",
+        "file_location": "./code\\controllers\\mc\\failsafe.dm",
+        "line_number": 176,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "Recreate_MC",
+        "full_path": "proc/Recreate_MC()",
+        "file_location": "./code\\controllers\\mc\\master.dm",
+        "line_number": 145,
+        "arguments": [],
+        "comment": "-1 if we encountered a runtime trying to recreate it"
+    },
+    {
+        "proc_name": "init_subsystem",
+        "full_path": "/datum/controller/master/proc/init_subsystem(datum/controller/subsystem/subsystem)",
+        "file_location": "./code\\controllers\\mc\\master.dm",
+        "line_number": 289,
+        "arguments": [
+            "datum/controller/subsystem/subsystem"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "SetRunLevel",
+        "full_path": "/datum/controller/master/proc/SetRunLevel(new_runlevel)",
+        "file_location": "./code\\controllers\\mc\\master.dm",
+        "line_number": 356,
+        "arguments": [
+            "new_runlevel"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "StartProcessing",
+        "full_path": "/datum/controller/master/proc/StartProcessing(delay)",
+        "file_location": "./code\\controllers\\mc\\master.dm",
+        "line_number": 367,
+        "arguments": [
+            "delay"
+        ],
+        "comment": "Starts the mc, and sticks around to restart it if the loop ever ends."
+    },
+    {
+        "proc_name": "Loop",
+        "full_path": "/datum/controller/master/proc/Loop(init_stage)",
+        "file_location": "./code\\controllers\\mc\\master.dm",
+        "line_number": 391,
+        "arguments": [
+            "init_stage"
+        ],
+        "comment": "Main loop."
+    },
+    {
+        "proc_name": "CheckQueue",
+        "full_path": "/datum/controller/master/proc/CheckQueue(list/subsystemstocheck)",
+        "file_location": "./code\\controllers\\mc\\master.dm",
+        "line_number": 580,
+        "arguments": [
+            "list/subsystemstocheck"
+        ],
+        "comment": "This is what decides if something should run."
+    },
+    {
+        "proc_name": "RunQueue",
+        "full_path": "/datum/controller/master/proc/RunQueue()",
+        "file_location": "./code\\controllers\\mc\\master.dm",
+        "line_number": 613,
+        "arguments": [],
+        "comment": "/ Returns 0 if runtimed, a negitive number for logic errors, and a positive number if the operation completed without errors"
+    },
+    {
+        "proc_name": "SoftReset",
+        "full_path": "/datum/controller/master/proc/SoftReset(list/ticker_SS, list/runlevel_SS)",
+        "file_location": "./code\\controllers\\mc\\master.dm",
+        "line_number": 731,
+        "arguments": [
+            "list/ticker_SS",
+            "list/runlevel_SS"
+        ],
+        "comment": "called if any mc's queue procs runtime or exit improperly."
+    },
+    {
+        "proc_name": "laggy_byond_map_update_incoming",
+        "full_path": "/datum/controller/master/proc/laggy_byond_map_update_incoming()",
+        "file_location": "./code\\controllers\\mc\\master.dm",
+        "line_number": 773,
+        "arguments": [],
+        "comment": "/ Warns us that the end of tick byond map_update will be laggier then normal, so that we can just skip running subsystems this tick."
+    },
+    {
+        "proc_name": "UpdateTickRate",
+        "full_path": "/datum/controller/master/proc/UpdateTickRate()",
+        "file_location": "./code\\controllers\\mc\\master.dm",
+        "line_number": 799,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "OnConfigLoad",
+        "full_path": "/datum/controller/master/proc/OnConfigLoad()",
+        "file_location": "./code\\controllers\\mc\\master.dm",
+        "line_number": 808,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "PreInit",
+        "full_path": "/datum/controller/subsystem/proc/PreInit()",
+        "file_location": "./code\\controllers\\mc\\subsystem.dm",
+        "line_number": 111,
+        "arguments": [],
+        "comment": "Prefer to use Initialize if possible"
+    },
+    {
+        "proc_name": "ignite",
+        "full_path": "/datum/controller/subsystem/proc/ignite(resumed = FALSE)",
+        "file_location": "./code\\controllers\\mc\\subsystem.dm",
+        "line_number": 115,
+        "arguments": [
+            "resumed = FALSE"
+        ],
+        "comment": "/This is used so the mc knows when the subsystem sleeps. do not override."
+    },
+    {
+        "proc_name": "fire",
+        "full_path": "/datum/controller/subsystem/proc/fire(resumed = FALSE)",
+        "file_location": "./code\\controllers\\mc\\subsystem.dm",
+        "line_number": 139,
+        "arguments": [
+            "resumed = FALSE"
+        ],
+        "comment": "/Sleeping in here prevents future fires until returned."
+    },
+    {
+        "proc_name": "update_nextfire",
+        "full_path": "/datum/controller/subsystem/proc/update_nextfire(reset_time = FALSE)",
+        "file_location": "./code\\controllers\\mc\\subsystem.dm",
+        "line_number": 155,
+        "arguments": [
+            "reset_time = FALSE"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "enqueue",
+        "full_path": "/datum/controller/subsystem/proc/enqueue()",
+        "file_location": "./code\\controllers\\mc\\subsystem.dm",
+        "line_number": 179,
+        "arguments": [],
+        "comment": "/ (this lets us sort our run order correctly without having to re-sort the entire already sorted list)"
+    },
+    {
+        "proc_name": "dequeue",
+        "full_path": "/datum/controller/subsystem/proc/dequeue()",
+        "file_location": "./code\\controllers\\mc\\subsystem.dm",
+        "line_number": 237,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "pause",
+        "full_path": "/datum/controller/subsystem/proc/pause()",
+        "file_location": "./code\\controllers\\mc\\subsystem.dm",
+        "line_number": 251,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "OnConfigLoad",
+        "full_path": "/datum/controller/subsystem/proc/OnConfigLoad()",
+        "file_location": "./code\\controllers\\mc\\subsystem.dm",
+        "line_number": 260,
+        "arguments": [],
+        "comment": "/ Called after the config has been loaded or reloaded."
+    },
+    {
+        "proc_name": "state_letter",
+        "full_path": "/datum/controller/subsystem/proc/state_letter()",
+        "file_location": "./code\\controllers\\mc\\subsystem.dm",
+        "line_number": 275,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "postpone",
+        "full_path": "/datum/controller/subsystem/proc/postpone(cycles = 1)",
+        "file_location": "./code\\controllers\\mc\\subsystem.dm",
+        "line_number": 289,
+        "arguments": [
+            "cycles = 1"
+        ],
+        "comment": "/ Causes the next \"cycle\" fires to be missed. Effect is accumulative but can reset by calling update_nextfire(reset_time = TRUE)"
+    },
+    {
+        "proc_name": "queue_attack",
+        "full_path": "/datum/controller/subsystem/acid_pillar/proc/queue_attack(obj/effect/alien/resin/acid_pillar/P, atom/target)",
+        "file_location": "./code\\controllers\\subsystem\\acid_pillar.dm",
+        "line_number": 36,
+        "arguments": [
+            "obj/effect/alien/resin/acid_pillar/P",
+            "atom/target"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "InitializeAtoms",
+        "full_path": "/datum/controller/subsystem/atoms/proc/InitializeAtoms(list/atoms)",
+        "file_location": "./code\\controllers\\subsystem\\atoms.dm",
+        "line_number": 37,
+        "arguments": [
+            "list/atoms"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "InitializeLateLoaders",
+        "full_path": "/datum/controller/subsystem/atoms/proc/InitializeLateLoaders()",
+        "file_location": "./code\\controllers\\subsystem\\atoms.dm",
+        "line_number": 53,
+        "arguments": [],
+        "comment": "/ This is necessary because of an edge case where there might be simultanious calls to InitializeAtoms"
+    },
+    {
+        "proc_name": "CreateAtoms",
+        "full_path": "/datum/controller/subsystem/atoms/proc/CreateAtoms(list/atoms)",
+        "file_location": "./code\\controllers\\subsystem\\atoms.dm",
+        "line_number": 76,
+        "arguments": [
+            "list/atoms"
+        ],
+        "comment": "/ Actually creates the list of atoms. Exists soley so a runtime in the creation logic doesn't cause initalized to totally break"
+    },
+    {
+        "proc_name": "InitAtom",
+        "full_path": "/datum/controller/subsystem/atoms/proc/InitAtom(atom/A, from_template = FALSE, list/arguments)",
+        "file_location": "./code\\controllers\\subsystem\\atoms.dm",
+        "line_number": 110,
+        "arguments": [
+            "atom/A",
+            "from_template = FALSE",
+            "list/arguments"
+        ],
+        "comment": "/ Init this specific atom"
+    },
+    {
+        "proc_name": "lateinit_roundstart_atoms",
+        "full_path": "/datum/controller/subsystem/atoms/proc/lateinit_roundstart_atoms()",
+        "file_location": "./code\\controllers\\subsystem\\atoms.dm",
+        "line_number": 164,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "fix_atoms_locs",
+        "full_path": "/datum/controller/subsystem/atoms/proc/fix_atoms_locs(list/atoms)",
+        "file_location": "./code\\controllers\\subsystem\\atoms.dm",
+        "line_number": 172,
+        "arguments": [
+            "list/atoms"
+        ],
+        "comment": "/ and the BYOND Bug Report: http://www.byond.com/forum/post/2777527"
+    },
+    {
+        "proc_name": "map_loader_begin",
+        "full_path": "/datum/controller/subsystem/atoms/proc/map_loader_begin()",
+        "file_location": "./code\\controllers\\subsystem\\atoms.dm",
+        "line_number": 180,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "map_loader_stop",
+        "full_path": "/datum/controller/subsystem/atoms/proc/map_loader_stop()",
+        "file_location": "./code\\controllers\\subsystem\\atoms.dm",
+        "line_number": 183,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "set_tracked_initalized",
+        "full_path": "/datum/controller/subsystem/atoms/proc/set_tracked_initalized(value)",
+        "file_location": "./code\\controllers\\subsystem\\atoms.dm",
+        "line_number": 187,
+        "arguments": [
+            "value"
+        ],
+        "comment": "/ Use this to set initialized to prevent error states where old_initialized is overriden. It keeps happening and it's cheesing me off"
+    },
+    {
+        "proc_name": "clear_tracked_initalize",
+        "full_path": "/datum/controller/subsystem/atoms/proc/clear_tracked_initalize()",
+        "file_location": "./code\\controllers\\subsystem\\atoms.dm",
+        "line_number": 196,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "initializing_something",
+        "full_path": "/datum/controller/subsystem/atoms/proc/initializing_something()",
+        "file_location": "./code\\controllers\\subsystem\\atoms.dm",
+        "line_number": 202,
+        "arguments": [],
+        "comment": "/ Returns TRUE if anything is currently being initialized"
+    },
+    {
+        "proc_name": "InitLog",
+        "full_path": "/datum/controller/subsystem/atoms/proc/InitLog()",
+        "file_location": "./code\\controllers\\subsystem\\atoms.dm",
+        "line_number": 212,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "reset_buckets",
+        "full_path": "/datum/controller/subsystem/automatedfire/proc/reset_buckets()",
+        "file_location": "./code\\controllers\\subsystem\\autofire.dm",
+        "line_number": 82,
+        "arguments": [],
+        "comment": "/In the event of a change of world.tick_lag, we refresh the size of the bucket and the bucket resolution"
+    },
+    {
+        "proc_name": "queue",
+        "full_path": "/datum/controller/subsystem/chat/proc/queue(target, message)",
+        "file_location": "./code\\controllers\\subsystem\\chat.dm",
+        "line_number": 34,
+        "arguments": [
+            "target",
+            "message"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "receive_signal",
+        "full_path": "proc/receive_signal(datum/signal/signal, receive_method as num, receive_param)",
+        "file_location": "./code\\controllers\\subsystem\\communications.dm",
+        "line_number": 41,
+        "arguments": [
+            "datum/signal/signal",
+            "receive_method as num",
+            "receive_param"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "receive_signal",
+        "full_path": "/obj/proc/receive_signal(datum/signal/signal, receive_method, receive_param)",
+        "file_location": "./code\\controllers\\subsystem\\communications.dm",
+        "line_number": 227,
+        "arguments": [
+            "datum/signal/signal",
+            "receive_method",
+            "receive_param"
+        ],
+        "comment": "callback used by objects to react to incoming radio signals"
+    },
+    {
+        "proc_name": "add_object",
+        "full_path": "/datum/controller/subsystem/radio/proc/add_object(obj/device as obj, new_frequency as num, filter = null as text|null)",
+        "file_location": "./code\\controllers\\subsystem\\communications.dm",
+        "line_number": 265,
+        "arguments": [
+            "obj/device as obj",
+            "new_frequency as num",
+            "filter = null as text|null"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "remove_object",
+        "full_path": "/datum/controller/subsystem/radio/proc/remove_object(obj/device, old_frequency)",
+        "file_location": "./code\\controllers\\subsystem\\communications.dm",
+        "line_number": 277,
+        "arguments": [
+            "obj/device",
+            "old_frequency"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "return_frequency",
+        "full_path": "/datum/controller/subsystem/radio/proc/return_frequency(new_frequency as num)",
+        "file_location": "./code\\controllers\\subsystem\\communications.dm",
+        "line_number": 290,
+        "arguments": [
+            "new_frequency as num"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "get_available_tcomm_zs",
+        "full_path": "/datum/controller/subsystem/radio/proc/get_available_tcomm_zs(frequency)",
+        "file_location": "./code\\controllers\\subsystem\\communications.dm",
+        "line_number": 301,
+        "arguments": [
+            "frequency"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "add_tcomm_machine",
+        "full_path": "/datum/controller/subsystem/radio/proc/add_tcomm_machine(obj/machine)",
+        "file_location": "./code\\controllers\\subsystem\\communications.dm",
+        "line_number": 319,
+        "arguments": [
+            "obj/machine"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "remove_tcomm_machine",
+        "full_path": "/datum/controller/subsystem/radio/proc/remove_tcomm_machine(obj/machine)",
+        "file_location": "./code\\controllers\\subsystem\\communications.dm",
+        "line_number": 325,
+        "arguments": [
+            "obj/machine"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "get_frequency_span",
+        "full_path": "/datum/controller/subsystem/radio/proc/get_frequency_span(frequency)",
+        "file_location": "./code\\controllers\\subsystem\\communications.dm",
+        "line_number": 329,
+        "arguments": [
+            "frequency"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "post_signal",
+        "full_path": "/datum/radio_frequency/proc/post_signal(obj/source as obj|null, datum/signal/signal, filter = null as text|null, range = null as num|null)",
+        "file_location": "./code\\controllers\\subsystem\\communications.dm",
+        "line_number": 349,
+        "arguments": [
+            "obj/source as obj|null",
+            "datum/signal/signal",
+            "filter = null as text|null",
+            "range = null as num|null"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "send_to_filter",
+        "full_path": "/datum/radio_frequency/proc/send_to_filter(obj/source, datum/signal/signal, filter, turf/start_point = null, range = null)",
+        "file_location": "./code\\controllers\\subsystem\\communications.dm",
+        "line_number": 365,
+        "arguments": [
+            "obj/source",
+            "datum/signal/signal",
+            "filter",
+            "turf/start_point = null",
+            "range = null"
+        ],
+        "comment": "Sends a signal to all machines belonging to a given filter. Should be called by post_signal()"
+    },
+    {
+        "proc_name": "add_listener",
+        "full_path": "/datum/radio_frequency/proc/add_listener(obj/device as obj, filter as text|null)",
+        "file_location": "./code\\controllers\\subsystem\\communications.dm",
+        "line_number": 390,
+        "arguments": [
+            "obj/device as obj",
+            "filter as text|null"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "remove_listener",
+        "full_path": "/datum/radio_frequency/proc/remove_listener(obj/device)",
+        "file_location": "./code\\controllers\\subsystem\\communications.dm",
+        "line_number": 404,
+        "arguments": [
+            "obj/device"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "copy_from",
+        "full_path": "/datum/signal/proc/copy_from(datum/signal/model)",
+        "file_location": "./code\\controllers\\subsystem\\communications.dm",
+        "line_number": 424,
+        "arguments": [
+            "datum/signal/model"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "debug_print",
+        "full_path": "/datum/signal/proc/debug_print()",
+        "file_location": "./code\\controllers\\subsystem\\communications.dm",
+        "line_number": 431,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "GetElement",
+        "full_path": "/datum/controller/subsystem/processing/dcs/proc/GetElement(list/arguments)",
+        "file_location": "./code\\controllers\\subsystem\\dcs.dm",
+        "line_number": 11,
+        "arguments": [
+            "list/arguments"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "GetIdFromArguments",
+        "full_path": "/datum/controller/subsystem/processing/dcs/proc/GetIdFromArguments(list/arguments)",
+        "file_location": "./code\\controllers\\subsystem\\dcs.dm",
+        "line_number": 32,
+        "arguments": [
+            "list/arguments"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "Decorate",
+        "full_path": "/atom/proc/Decorate(deferable = FALSE)",
+        "file_location": "./code\\controllers\\subsystem\\decorator.dm",
+        "line_number": 4,
+        "arguments": [
+            "deferable = FALSE"
+        ],
+        "comment": "That's why we define this here"
+    },
+    {
+        "proc_name": "add_decorator",
+        "full_path": "/datum/controller/subsystem/decorator/proc/add_decorator(decor_type, ...)",
+        "file_location": "./code\\controllers\\subsystem\\decorator.dm",
+        "line_number": 74,
+        "arguments": [
+            "decor_type",
+            "..."
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "force_update",
+        "full_path": "/datum/controller/subsystem/decorator/proc/force_update()",
+        "file_location": "./code\\controllers\\subsystem\\decorator.dm",
+        "line_number": 96,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "decorate",
+        "full_path": "/datum/controller/subsystem/decorator/proc/decorate(atom/o)",
+        "file_location": "./code\\controllers\\subsystem\\decorator.dm",
+        "line_number": 106,
+        "arguments": [
+            "atom/o"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "sortDecorators",
+        "full_path": "/datum/controller/subsystem/decorator/proc/sortDecorators(list/datum/decorator/L)",
+        "file_location": "./code\\controllers\\subsystem\\decorator.dm",
+        "line_number": 118,
+        "arguments": [
+            "list/datum/decorator/L"
+        ],
+        "comment": "List of lists, sorts by element[key] - for things like crew monitoring computer sorting records by name."
+    },
+    {
+        "proc_name": "mergeDecoratorLists",
+        "full_path": "/datum/controller/subsystem/decorator/proc/mergeDecoratorLists(list/datum/decorator/L, list/datum/decorator/R)",
+        "file_location": "./code\\controllers\\subsystem\\decorator.dm",
+        "line_number": 126,
+        "arguments": [
+            "list/datum/decorator/L",
+            "list/datum/decorator/R"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "debug_type",
+        "full_path": "/datum/controller/subsystem/decorator/proc/debug_type(T)",
+        "file_location": "./code\\controllers\\subsystem\\decorator.dm",
+        "line_number": 144,
+        "arguments": [
+            "T"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "check_event",
+        "full_path": "/datum/controller/subsystem/events/proc/check_event()",
+        "file_location": "./code\\controllers\\subsystem\\events.dm",
+        "line_number": 49,
+        "arguments": [],
+        "comment": "/checks if we should select a random event yet, and reschedules if necessary"
+    },
+    {
+        "proc_name": "reschedule",
+        "full_path": "/datum/controller/subsystem/events/proc/reschedule()",
+        "file_location": "./code\\controllers\\subsystem\\events.dm",
+        "line_number": 55,
+        "arguments": [],
+        "comment": "/decides which world.time we should select another random event at."
+    },
+    {
+        "proc_name": "spawn_event",
+        "full_path": "/datum/controller/subsystem/events/proc/spawn_event()",
+        "file_location": "./code\\controllers\\subsystem\\events.dm",
+        "line_number": 59,
+        "arguments": [],
+        "comment": "/selects a random event based on whether it can occur and it's 'weight'(probability)"
+    },
+    {
+        "proc_name": "trigger_event",
+        "full_path": "/datum/controller/subsystem/events/proc/trigger_event(datum/round_event_control/E)",
+        "file_location": "./code\\controllers\\subsystem\\events.dm",
+        "line_number": 89,
+        "arguments": [
+            "datum/round_event_control/E"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "force_event",
+        "full_path": "/client/proc/force_event()",
+        "file_location": "./code\\controllers\\subsystem\\events.dm",
+        "line_number": 98,
+        "arguments": [],
+        "comment": "aka Badmin Central"
+    },
+    {
+        "proc_name": "force_event",
+        "full_path": "/datum/admins/proc/force_event()",
+        "file_location": "./code\\controllers\\subsystem\\events.dm",
+        "line_number": 107,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "toggle_events",
+        "full_path": "/client/proc/toggle_events()",
+        "file_location": "./code\\controllers\\subsystem\\events.dm",
+        "line_number": 121,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "IsRateLimited",
+        "full_path": "/datum/controller/subsystem/fail_to_topic/proc/IsRateLimited(ip)",
+        "file_location": "./code\\controllers\\subsystem\\fail_to_topic.dm",
+        "line_number": 51,
+        "arguments": [
+            "ip"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "InitQueues",
+        "full_path": "/datum/controller/subsystem/garbage/proc/InitQueues()",
+        "file_location": "./code\\controllers\\subsystem\\garbage.dm",
+        "line_number": 132,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "HandleQueue",
+        "full_path": "/datum/controller/subsystem/garbage/proc/HandleQueue(level = GC_QUEUE_FILTER)",
+        "file_location": "./code\\controllers\\subsystem\\garbage.dm",
+        "line_number": 149,
+        "arguments": [
+            "level = GC_QUEUE_FILTER"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "Queue",
+        "full_path": "/datum/controller/subsystem/garbage/proc/Queue(datum/D, level = GC_QUEUE_FILTER)",
+        "file_location": "./code\\controllers\\subsystem\\garbage.dm",
+        "line_number": 266,
+        "arguments": [
+            "datum/D",
+            "level = GC_QUEUE_FILTER"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "HardDelete",
+        "full_path": "/datum/controller/subsystem/garbage/proc/HardDelete(datum/D, force)",
+        "file_location": "./code\\controllers\\subsystem\\garbage.dm",
+        "line_number": 290,
+        "arguments": [
+            "datum/D",
+            "force"
+        ],
+        "comment": "this is mainly to separate things profile wise."
+    },
+    {
+        "proc_name": "qdel",
+        "full_path": "proc/qdel(datum/D, force=FALSE, ...)",
+        "file_location": "./code\\controllers\\subsystem\\garbage.dm",
+        "line_number": 353,
+        "arguments": [
+            "datum/D",
+            "force=FALSE",
+            "..."
+        ],
+        "comment": "/ Datums passed to this will be given a chance to clean up references to allow the GC to collect them."
+    },
+    {
+        "proc_name": "queue",
+        "full_path": "/datum/controller/subsystem/html_ui/proc/queue(ref, procname, ...)",
+        "file_location": "./code\\controllers\\subsystem\\htmlui.dm",
+        "line_number": 43,
+        "arguments": [
+            "ref",
+            "procname",
+            "..."
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "unix_timestamp_string",
+        "full_path": "/datum/controller/subsystem/influxdriver/proc/unix_timestamp_string()",
+        "file_location": "./code\\controllers\\subsystem\\influxdriver.dm",
+        "line_number": 31,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "update_timestamp",
+        "full_path": "/datum/controller/subsystem/influxdriver/proc/update_timestamp()",
+        "file_location": "./code\\controllers\\subsystem\\influxdriver.dm",
+        "line_number": 34,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "flush_queue",
+        "full_path": "/datum/controller/subsystem/influxdriver/proc/flush_queue(list/queue)",
+        "file_location": "./code\\controllers\\subsystem\\influxdriver.dm",
+        "line_number": 50,
+        "arguments": [
+            "list/queue"
+        ],
+        "comment": "/ Flushes measurements batch to InfluxDB backend"
+    },
+    {
+        "proc_name": "enqueue_stats",
+        "full_path": "/datum/controller/subsystem/influxdriver/proc/enqueue_stats(measurement, list/tags, list/fields)",
+        "file_location": "./code\\controllers\\subsystem\\influxdriver.dm",
+        "line_number": 80,
+        "arguments": [
+            "measurement",
+            "list/tags",
+            "list/fields"
+        ],
+        "comment": "/ Enqueues sending to InfluxDB Backend selected measurement values - round_id and timestamp are filled in automatically"
+    },
+    {
+        "proc_name": "enqueue_stats_crude",
+        "full_path": "/datum/controller/subsystem/influxdriver/proc/enqueue_stats_crude(measurement, value, field_name = \"count\")",
+        "file_location": "./code\\controllers\\subsystem\\influxdriver.dm",
+        "line_number": 106,
+        "arguments": [
+            "measurement",
+            "value",
+            "field_name = \"count\""
+        ],
+        "comment": "/ Enqueues sending varied stats in a dumb and simpler format directly as: measurement count="
+    },
+    {
+        "proc_name": "serialize_field",
+        "full_path": "/datum/controller/subsystem/influxdriver/proc/serialize_field(field, value)",
+        "file_location": "./code\\controllers\\subsystem\\influxdriver.dm",
+        "line_number": 118,
+        "arguments": [
+            "field",
+            "value"
+        ],
+        "comment": "/ Puts a single field or tag value into InfluxDB Line format"
+    },
+    {
+        "proc_name": "flatten_entity_list",
+        "full_path": "/datum/controller/subsystem/influxstats/proc/flatten_entity_list(list/data)",
+        "file_location": "./code\\controllers\\subsystem\\influxstats.dm",
+        "line_number": 47,
+        "arguments": [
+            "list/data"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "run_special_round_statistics",
+        "full_path": "/datum/controller/subsystem/influxstats/proc/run_special_round_statistics()",
+        "file_location": "./code\\controllers\\subsystem\\influxstats.dm",
+        "line_number": 54,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "run_round_statistics",
+        "full_path": "/datum/controller/subsystem/influxstats/proc/run_round_statistics()",
+        "file_location": "./code\\controllers\\subsystem\\influxstats.dm",
+        "line_number": 61,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "run_player_statistics",
+        "full_path": "/datum/controller/subsystem/influxstats/proc/run_player_statistics()",
+        "file_location": "./code\\controllers\\subsystem\\influxstats.dm",
+        "line_number": 83,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "run_job_statistics",
+        "full_path": "/datum/controller/subsystem/influxstats/proc/run_job_statistics()",
+        "file_location": "./code\\controllers\\subsystem\\influxstats.dm",
+        "line_number": 105,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "setup_default_macro_sets",
+        "full_path": "/datum/controller/subsystem/input/proc/setup_default_macro_sets()",
+        "file_location": "./code\\controllers\\subsystem\\input.dm",
+        "line_number": 22,
+        "arguments": [],
+        "comment": "This is for when macro sets are eventualy datumized"
+    },
+    {
+        "proc_name": "refresh_client_macro_sets",
+        "full_path": "/datum/controller/subsystem/input/proc/refresh_client_macro_sets()",
+        "file_location": "./code\\controllers\\subsystem\\input.dm",
+        "line_number": 34,
+        "arguments": [],
+        "comment": "Badmins just wanna have fun \u266a"
+    },
+    {
+        "proc_name": "load_interior",
+        "full_path": "/datum/controller/subsystem/interior/proc/load_interior(datum/interior/interior)",
+        "file_location": "./code\\controllers\\subsystem\\interior.dm",
+        "line_number": 9,
+        "arguments": [
+            "datum/interior/interior"
+        ],
+        "comment": "/ Loads an interior, requires the interior datum"
+    },
+    {
+        "proc_name": "get_interior_by_coords",
+        "full_path": "/datum/controller/subsystem/interior/proc/get_interior_by_coords(x, y, z)",
+        "file_location": "./code\\controllers\\subsystem\\interior.dm",
+        "line_number": 28,
+        "arguments": [
+            "x",
+            "y",
+            "z"
+        ],
+        "comment": "/ Finds which interior is at (x, y, z) and returns its interior datum"
+    },
+    {
+        "proc_name": "in_interior",
+        "full_path": "/datum/controller/subsystem/interior/proc/in_interior(loc)",
+        "file_location": "./code\\controllers\\subsystem\\interior.dm",
+        "line_number": 38,
+        "arguments": [
+            "loc"
+        ],
+        "comment": "/ Checks if an atom is in an interior"
+    },
+    {
+        "proc_name": "delete_almayer",
+        "full_path": "/datum/controller/subsystem/item_cleanup/proc/delete_almayer()",
+        "file_location": "./code\\controllers\\subsystem\\item_cleanup.dm",
+        "line_number": 43,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "delete_surface",
+        "full_path": "/datum/controller/subsystem/item_cleanup/proc/delete_surface()",
+        "file_location": "./code\\controllers\\subsystem\\item_cleanup.dm",
+        "line_number": 47,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "delete_z_level",
+        "full_path": "/datum/controller/subsystem/item_cleanup/proc/delete_z_level(list/z_levels)",
+        "file_location": "./code\\controllers\\subsystem\\item_cleanup.dm",
+        "line_number": 51,
+        "arguments": [
+            "list/z_levels"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "add_to_garbage",
+        "full_path": "proc/add_to_garbage(atom/a)",
+        "file_location": "./code\\controllers\\subsystem\\item_cleanup.dm",
+        "line_number": 59,
+        "arguments": [
+            "atom/a"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "remove_from_garbage",
+        "full_path": "proc/remove_from_garbage(atom/a)",
+        "file_location": "./code\\controllers\\subsystem\\item_cleanup.dm",
+        "line_number": 62,
+        "arguments": [
+            "atom/a"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "HACK_LoadMapConfig",
+        "full_path": "/datum/controller/subsystem/mapping/proc/HACK_LoadMapConfig()",
+        "file_location": "./code\\controllers\\subsystem\\mapping.dm",
+        "line_number": 29,
+        "arguments": [],
+        "comment": "dlete dis once #39770 is resolved"
+    },
+    {
+        "proc_name": "wipe_reservations",
+        "full_path": "/datum/controller/subsystem/mapping/proc/wipe_reservations(wipe_safety_delay = 100)",
+        "file_location": "./code\\controllers\\subsystem\\mapping.dm",
+        "line_number": 64,
+        "arguments": [
+            "wipe_safety_delay = 100"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "LoadGroup",
+        "full_path": "/datum/controller/subsystem/mapping/proc/LoadGroup(list/errorList, name, path, files, list/traits, list/default_traits, silent = FALSE, override_map_path = \"maps/\")",
+        "file_location": "./code\\controllers\\subsystem\\mapping.dm",
+        "line_number": 88,
+        "arguments": [
+            "list/errorList",
+            "name",
+            "path",
+            "files",
+            "list/traits",
+            "list/default_traits",
+            "silent = FALSE",
+            "override_map_path = \"maps/\""
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "Loadship",
+        "full_path": "/datum/controller/subsystem/mapping/proc/Loadship(list/errorList, name, path, files, list/traits, list/default_traits, silent = FALSE, override_map_path = \"maps/\")",
+        "file_location": "./code\\controllers\\subsystem\\mapping.dm",
+        "line_number": 138,
+        "arguments": [
+            "list/errorList",
+            "name",
+            "path",
+            "files",
+            "list/traits",
+            "list/default_traits",
+            "silent = FALSE",
+            "override_map_path = \"maps/\""
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "Loadground",
+        "full_path": "/datum/controller/subsystem/mapping/proc/Loadground(list/errorList, name, path, files, list/traits, list/default_traits, silent = FALSE, override_map_path = \"maps/\")",
+        "file_location": "./code\\controllers\\subsystem\\mapping.dm",
+        "line_number": 141,
+        "arguments": [
+            "list/errorList",
+            "name",
+            "path",
+            "files",
+            "list/traits",
+            "list/default_traits",
+            "silent = FALSE",
+            "override_map_path = \"maps/\""
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "loadWorld",
+        "full_path": "/datum/controller/subsystem/mapping/proc/loadWorld()",
+        "file_location": "./code\\controllers\\subsystem\\mapping.dm",
+        "line_number": 144,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "changemap",
+        "full_path": "/datum/controller/subsystem/mapping/proc/changemap(datum/map_config/VM, maptype = GROUND_MAP)",
+        "file_location": "./code\\controllers\\subsystem\\mapping.dm",
+        "line_number": 178,
+        "arguments": [
+            "datum/map_config/VM",
+            "maptype = GROUND_MAP"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "preloadTemplates",
+        "full_path": "/datum/controller/subsystem/mapping/proc/preloadTemplates(path = \"maps/templates/\")",
+        "file_location": "./code\\controllers\\subsystem\\mapping.dm",
+        "line_number": 198,
+        "arguments": [
+            "path = \"maps/templates/\""
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "generateMapList",
+        "full_path": "proc/generateMapList(filename)",
+        "file_location": "./code\\controllers\\subsystem\\mapping.dm",
+        "line_number": 206,
+        "arguments": [
+            "filename"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "preloadShuttleTemplates",
+        "full_path": "/datum/controller/subsystem/mapping/proc/preloadShuttleTemplates()",
+        "file_location": "./code\\controllers\\subsystem\\mapping.dm",
+        "line_number": 236,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "RequestBlockReservation",
+        "full_path": "/datum/controller/subsystem/mapping/proc/RequestBlockReservation(width, height, z, type = /datum/turf_reservation, turf_type_override)",
+        "file_location": "./code\\controllers\\subsystem\\mapping.dm",
+        "line_number": 245,
+        "arguments": [
+            "width",
+            "height",
+            "z",
+            "type = /datum/turf_reservation",
+            "turf_type_override"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "initialize_reserved_level",
+        "full_path": "/datum/controller/subsystem/mapping/proc/initialize_reserved_level(z)",
+        "file_location": "./code\\controllers\\subsystem\\mapping.dm",
+        "line_number": 275,
+        "arguments": [
+            "z"
+        ],
+        "comment": "This is not for wiping reserved levels, use wipe_reservations() for that."
+    },
+    {
+        "proc_name": "reserve_turfs",
+        "full_path": "/datum/controller/subsystem/mapping/proc/reserve_turfs(list/turfs)",
+        "file_location": "./code\\controllers\\subsystem\\mapping.dm",
+        "line_number": 293,
+        "arguments": [
+            "list/turfs"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "do_wipe_turf_reservations",
+        "full_path": "/datum/controller/subsystem/mapping/proc/do_wipe_turf_reservations()",
+        "file_location": "./code\\controllers\\subsystem\\mapping.dm",
+        "line_number": 304,
+        "arguments": [],
+        "comment": "DO NOT CALL THIS PROC DIRECTLY, CALL wipe_reservations()."
+    },
+    {
+        "proc_name": "reg_in_areas_in_z",
+        "full_path": "/datum/controller/subsystem/mapping/proc/reg_in_areas_in_z(list/areas)",
+        "file_location": "./code\\controllers\\subsystem\\mapping.dm",
+        "line_number": 320,
+        "arguments": [
+            "list/areas"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "get_main_ship_name",
+        "full_path": "/datum/controller/subsystem/mapping/proc/get_main_ship_name()",
+        "file_location": "./code\\controllers\\subsystem\\mapping.dm",
+        "line_number": 326,
+        "arguments": [],
+        "comment": "/ Gets a name for the marine ship as per the enabled ship map configuration"
+    },
+    {
+        "proc_name": "queue",
+        "full_path": "/datum/controller/subsystem/midi/proc/queue(target, midi)",
+        "file_location": "./code\\controllers\\subsystem\\midi.dm",
+        "line_number": 39,
+        "arguments": [
+            "target",
+            "midi"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "handle_new_z",
+        "full_path": "/datum/controller/subsystem/minimaps/proc/handle_new_z(dcs, datum/space_level/z_level)",
+        "file_location": "./code\\controllers\\subsystem\\minimap.dm",
+        "line_number": 106,
+        "arguments": [
+            "dcs",
+            "datum/space_level/z_level"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "add_to_updaters",
+        "full_path": "/datum/controller/subsystem/minimaps/proc/add_to_updaters(atom/target, flags, ztarget)",
+        "file_location": "./code\\controllers\\subsystem\\minimap.dm",
+        "line_number": 155,
+        "arguments": [
+            "atom/target",
+            "flags",
+            "ztarget"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "remove_updator",
+        "full_path": "/datum/controller/subsystem/minimaps/proc/remove_updator(atom/target)",
+        "file_location": "./code\\controllers\\subsystem\\minimap.dm",
+        "line_number": 166,
+        "arguments": [
+            "atom/target"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "add_marker",
+        "full_path": "/datum/controller/subsystem/minimaps/proc/add_marker(atom/target, zlevel, hud_flags = NONE, iconstate, icon = 'icons/ui_icons/map_blips.dmi', list/overlay_iconstates, image/given_image)",
+        "file_location": "./code\\controllers\\subsystem\\minimap.dm",
+        "line_number": 227,
+        "arguments": [
+            "atom/target",
+            "zlevel",
+            "hud_flags = NONE",
+            "iconstate",
+            "icon = 'icons/ui_icons/map_blips.dmi'",
+            "list/overlay_iconstates",
+            "image/given_image"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "removeimage",
+        "full_path": "/datum/controller/subsystem/minimaps/proc/removeimage(image/blip, atom/target)",
+        "file_location": "./code\\controllers\\subsystem\\minimap.dm",
+        "line_number": 264,
+        "arguments": [
+            "image/blip",
+            "atom/target"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "on_z_change",
+        "full_path": "/datum/controller/subsystem/minimaps/proc/on_z_change(atom/movable/source, oldz, newz)",
+        "file_location": "./code\\controllers\\subsystem\\minimap.dm",
+        "line_number": 277,
+        "arguments": [
+            "atom/movable/source",
+            "oldz",
+            "newz"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "minimap_on_move",
+        "full_path": "/image/proc/minimap_on_move(atom/movable/source, oldloc)",
+        "file_location": "./code\\controllers\\subsystem\\minimap.dm",
+        "line_number": 293,
+        "arguments": [
+            "atom/movable/source",
+            "oldloc"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "remove_marker",
+        "full_path": "/datum/controller/subsystem/minimaps/proc/remove_marker(atom/source, force, minimap_flag)",
+        "file_location": "./code\\controllers\\subsystem\\minimap.dm",
+        "line_number": 306,
+        "arguments": [
+            "atom/source",
+            "force",
+            "minimap_flag"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "fetch_minimap_object",
+        "full_path": "/datum/controller/subsystem/minimaps/proc/fetch_minimap_object(zlevel, flags)",
+        "file_location": "./code\\controllers\\subsystem\\minimap.dm",
+        "line_number": 331,
+        "arguments": [
+            "zlevel",
+            "flags"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "fetch_tacmap_datum",
+        "full_path": "/datum/controller/subsystem/minimaps/proc/fetch_tacmap_datum(zlevel, flags)",
+        "file_location": "./code\\controllers\\subsystem\\minimap.dm",
+        "line_number": 341,
+        "arguments": [
+            "zlevel",
+            "flags"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "on_owner_z_change",
+        "full_path": "/datum/action/minimap/proc/on_owner_z_change(atom/movable/source, oldz, newz)",
+        "file_location": "./code\\controllers\\subsystem\\minimap.dm",
+        "line_number": 424,
+        "arguments": [
+            "atom/movable/source",
+            "oldz",
+            "newz"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "resolve_nodes",
+        "full_path": "/datum/controller/subsystem/nightmare/proc/resolve_nodes(context_name, scope)",
+        "file_location": "./code\\controllers\\subsystem\\nightmare.dm",
+        "line_number": 30,
+        "arguments": [
+            "context_name",
+            "scope"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "prepare_game",
+        "full_path": "/datum/controller/subsystem/nightmare/proc/prepare_game()",
+        "file_location": "./code\\controllers\\subsystem\\nightmare.dm",
+        "line_number": 35,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "load_map_config",
+        "full_path": "/datum/controller/subsystem/nightmare/proc/load_map_config(context_name, map_type)",
+        "file_location": "./code\\controllers\\subsystem\\nightmare.dm",
+        "line_number": 76,
+        "arguments": [
+            "context_name",
+            "map_type"
+        ],
+        "comment": "/ Load nightmare steps relevant to a map"
+    },
+    {
+        "proc_name": "get_scenario_value",
+        "full_path": "/datum/controller/subsystem/nightmare/proc/get_scenario_value(name)",
+        "file_location": "./code\\controllers\\subsystem\\nightmare.dm",
+        "line_number": 87,
+        "arguments": [
+            "name"
+        ],
+        "comment": "/ Returns a value from the global scenario"
+    },
+    {
+        "proc_name": "set_scenario_value",
+        "full_path": "/datum/controller/subsystem/nightmare/proc/set_scenario_value(name, value)",
+        "file_location": "./code\\controllers\\subsystem\\nightmare.dm",
+        "line_number": 92,
+        "arguments": [
+            "name",
+            "value"
+        ],
+        "comment": "/ Override a value from the global scenario."
+    },
+    {
+        "proc_name": "load_file",
+        "full_path": "/datum/controller/subsystem/nightmare/proc/load_file(filename, tag)",
+        "file_location": "./code\\controllers\\subsystem\\nightmare.dm",
+        "line_number": 97,
+        "arguments": [
+            "filename",
+            "tag"
+        ],
+        "comment": "/ Reads a JSON file, returns a branch nmnode representing contents of file"
+    },
+    {
+        "proc_name": "parse_file",
+        "full_path": "/datum/controller/subsystem/nightmare/proc/parse_file(filename)",
+        "file_location": "./code\\controllers\\subsystem\\nightmare.dm",
+        "line_number": 107,
+        "arguments": [
+            "filename"
+        ],
+        "comment": "/ Reads a JSON file, returns list of config nodes in the file"
+    },
+    {
+        "proc_name": "parse_tree",
+        "full_path": "/datum/controller/subsystem/nightmare/proc/parse_tree(list/parsed)",
+        "file_location": "./code\\controllers\\subsystem\\nightmare.dm",
+        "line_number": 119,
+        "arguments": [
+            "list/parsed"
+        ],
+        "comment": "/ Instanciates nmnodes from parsed JSON"
+    },
+    {
+        "proc_name": "read_node",
+        "full_path": "/datum/controller/subsystem/nightmare/proc/read_node(list/parsed)",
+        "file_location": "./code\\controllers\\subsystem\\nightmare.dm",
+        "line_number": 133,
+        "arguments": [
+            "list/parsed"
+        ],
+        "comment": "/ Instanciate a single nmnode from its JSON definition"
+    },
+    {
+        "proc_name": "on_marine_landing",
+        "full_path": "/datum/controller/subsystem/objectives/proc/on_marine_landing()",
+        "file_location": "./code\\controllers\\subsystem\\objectives_controller.dm",
+        "line_number": 83,
+        "arguments": [],
+        "comment": "Called when marines first drop"
+    },
+    {
+        "proc_name": "announce_stats",
+        "full_path": "/datum/controller/subsystem/objectives/proc/announce_stats()",
+        "file_location": "./code\\controllers\\subsystem\\objectives_controller.dm",
+        "line_number": 88,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "initialize_objectives",
+        "full_path": "/datum/controller/subsystem/objectives/proc/initialize_objectives()",
+        "file_location": "./code\\controllers\\subsystem\\objectives_controller.dm",
+        "line_number": 104,
+        "arguments": [],
+        "comment": "/ Allows to perform objective initialization later on in case of map changes"
+    },
+    {
+        "proc_name": "generate_objectives",
+        "full_path": "/datum/controller/subsystem/objectives/proc/generate_objectives()",
+        "file_location": "./code\\controllers\\subsystem\\objectives_controller.dm",
+        "line_number": 110,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "spawn_objective_at_landmark",
+        "full_path": "/datum/controller/subsystem/objectives/proc/spawn_objective_at_landmark(dest, obj/item/it)",
+        "file_location": "./code\\controllers\\subsystem\\objectives_controller.dm",
+        "line_number": 199,
+        "arguments": [
+            "dest",
+            "obj/item/it"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "pre_round_start",
+        "full_path": "/datum/controller/subsystem/objectives/proc/pre_round_start()",
+        "file_location": "./code\\controllers\\subsystem\\objectives_controller.dm",
+        "line_number": 266,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "post_round_start",
+        "full_path": "/datum/controller/subsystem/objectives/proc/post_round_start()",
+        "file_location": "./code\\controllers\\subsystem\\objectives_controller.dm",
+        "line_number": 272,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "connect_objectives",
+        "full_path": "/datum/controller/subsystem/objectives/proc/connect_objectives()",
+        "file_location": "./code\\controllers\\subsystem\\objectives_controller.dm",
+        "line_number": 277,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "link_objectives",
+        "full_path": "/datum/controller/subsystem/objectives/proc/link_objectives(datum/cm_objective/required_objective, datum/cm_objective/enabled_objective)",
+        "file_location": "./code\\controllers\\subsystem\\objectives_controller.dm",
+        "line_number": 360,
+        "arguments": [
+            "datum/cm_objective/required_objective",
+            "datum/cm_objective/enabled_objective"
+        ],
+        "comment": "For linking 2 objectives together in the objective tree"
+    },
+    {
+        "proc_name": "add_objective",
+        "full_path": "/datum/controller/subsystem/objectives/proc/add_objective(datum/cm_objective/O)",
+        "file_location": "./code\\controllers\\subsystem\\objectives_controller.dm",
+        "line_number": 364,
+        "arguments": [
+            "datum/cm_objective/O"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "remove_objective",
+        "full_path": "/datum/controller/subsystem/objectives/proc/remove_objective(datum/cm_objective/O)",
+        "file_location": "./code\\controllers\\subsystem\\objectives_controller.dm",
+        "line_number": 367,
+        "arguments": [
+            "datum/cm_objective/O"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "start_processing_objective",
+        "full_path": "/datum/controller/subsystem/objectives/proc/start_processing_objective(datum/cm_objective/O)",
+        "file_location": "./code\\controllers\\subsystem\\objectives_controller.dm",
+        "line_number": 370,
+        "arguments": [
+            "datum/cm_objective/O"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "stop_processing_objective",
+        "full_path": "/datum/controller/subsystem/objectives/proc/stop_processing_objective(datum/cm_objective/O)",
+        "file_location": "./code\\controllers\\subsystem\\objectives_controller.dm",
+        "line_number": 373,
+        "arguments": [
+            "datum/cm_objective/O"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "start_logging",
+        "full_path": "/datum/controller/subsystem/perf_logging/proc/start_logging()",
+        "file_location": "./code\\controllers\\subsystem\\perf_logging.dm",
+        "line_number": 40,
+        "arguments": [],
+        "comment": "/ Setup to begin performance logging when game starts"
+    },
+    {
+        "proc_name": "new_record",
+        "full_path": "/datum/controller/subsystem/perf_logging/proc/new_record(datum/controller/subsystem/SS, datum/entity/mc_controller/C)",
+        "file_location": "./code\\controllers\\subsystem\\perf_logging.dm",
+        "line_number": 56,
+        "arguments": [
+            "datum/controller/subsystem/SS",
+            "datum/entity/mc_controller/C"
+        ],
+        "comment": "/ Insert a new timing record for a single subsystem"
+    },
+    {
+        "proc_name": "update_mc_timing",
+        "full_path": "/datum/controller/subsystem/perf_logging/proc/update_mc_timing()",
+        "file_location": "./code\\controllers\\subsystem\\perf_logging.dm",
+        "line_number": 68,
+        "arguments": [],
+        "comment": "/ Insert a new timing record for the MC as a whole"
+    },
+    {
+        "proc_name": "create_print",
+        "full_path": "/datum/controller/subsystem/clues/proc/create_print(turf/location, mob/living/carbon/human/criminal_mob, incident = \"\")",
+        "file_location": "./code\\controllers\\subsystem\\police_clues.dm",
+        "line_number": 31,
+        "arguments": [
+            "turf/location",
+            "mob/living/carbon/human/criminal_mob",
+            "incident = \"\""
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "init_spawnpoint",
+        "full_path": "/datum/controller/subsystem/predships/proc/init_spawnpoint(obj/effect/landmark/clan_spawn/SP)",
+        "file_location": "./code\\controllers\\subsystem\\predships.dm",
+        "line_number": 18,
+        "arguments": [
+            "obj/effect/landmark/clan_spawn/SP"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "get_clan_spawnpoints",
+        "full_path": "/datum/controller/subsystem/predships/proc/get_clan_spawnpoints(clan_id)",
+        "file_location": "./code\\controllers\\subsystem\\predships.dm",
+        "line_number": 21,
+        "arguments": [
+            "clan_id"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "is_clanship_loaded",
+        "full_path": "/datum/controller/subsystem/predships/proc/is_clanship_loaded(clan_id)",
+        "file_location": "./code\\controllers\\subsystem\\predships.dm",
+        "line_number": 28,
+        "arguments": [
+            "clan_id"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "load_new",
+        "full_path": "/datum/controller/subsystem/predships/proc/load_new(initiating_clan_id)",
+        "file_location": "./code\\controllers\\subsystem\\predships.dm",
+        "line_number": 35,
+        "arguments": [
+            "initiating_clan_id"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "handle_projectile_flight",
+        "full_path": "/datum/controller/subsystem/projectiles/proc/handle_projectile_flight(obj/item/projectile/projectile, delta_time)",
+        "file_location": "./code\\controllers\\subsystem\\projectiles.dm",
+        "line_number": 52,
+        "arguments": [
+            "obj/item/projectile/projectile",
+            "delta_time"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "process_wrapper",
+        "full_path": "/datum/controller/subsystem/projectiles/proc/process_wrapper(obj/item/projectile/projectile, delta_time)",
+        "file_location": "./code\\controllers\\subsystem\\projectiles.dm",
+        "line_number": 69,
+        "arguments": [
+            "obj/item/projectile/projectile",
+            "delta_time"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "queue_projectile",
+        "full_path": "/datum/controller/subsystem/projectiles/proc/queue_projectile(obj/item/projectile/projectile)",
+        "file_location": "./code\\controllers\\subsystem\\projectiles.dm",
+        "line_number": 75,
+        "arguments": [
+            "obj/item/projectile/projectile"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "stop_projectile",
+        "full_path": "/datum/controller/subsystem/projectiles/proc/stop_projectile(obj/item/projectile/projectile)",
+        "file_location": "./code\\controllers\\subsystem\\projectiles.dm",
+        "line_number": 77,
+        "arguments": [
+            "obj/item/projectile/projectile"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "players_in_range",
+        "full_path": "/datum/controller/subsystem/quadtree/proc/players_in_range(datum/shape/range, z_level, flags = 0)",
+        "file_location": "./code\\controllers\\subsystem\\quadtrees.dm",
+        "line_number": 51,
+        "arguments": [
+            "datum/shape/range",
+            "z_level",
+            "flags = 0"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "prepare_properties",
+        "full_path": "/datum/controller/subsystem/reagents/proc/prepare_properties()",
+        "file_location": "./code\\controllers\\subsystem\\reagents.dm",
+        "line_number": 17,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "prepare_reagents",
+        "full_path": "/datum/controller/subsystem/reagents/proc/prepare_reagents()",
+        "file_location": "./code\\controllers\\subsystem\\reagents.dm",
+        "line_number": 48,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "connect",
+        "full_path": "/datum/controller/subsystem/redis/proc/connect()",
+        "file_location": "./code\\controllers\\subsystem\\redis.dm",
+        "line_number": 75,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "disconnect",
+        "full_path": "/datum/controller/subsystem/redis/proc/disconnect(reason)",
+        "file_location": "./code\\controllers\\subsystem\\redis.dm",
+        "line_number": 91,
+        "arguments": [
+            "reason"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "reconnect",
+        "full_path": "/datum/controller/subsystem/redis/proc/reconnect()",
+        "file_location": "./code\\controllers\\subsystem\\redis.dm",
+        "line_number": 98,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "check_messages",
+        "full_path": "/datum/controller/subsystem/redis/proc/check_messages()",
+        "file_location": "./code\\controllers\\subsystem\\redis.dm",
+        "line_number": 107,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "publish",
+        "full_path": "/datum/controller/subsystem/redis/proc/publish(channel, message)",
+        "file_location": "./code\\controllers\\subsystem\\redis.dm",
+        "line_number": 132,
+        "arguments": [
+            "channel",
+            "message"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "initial_load",
+        "full_path": "/datum/controller/subsystem/shuttle/proc/initial_load()",
+        "file_location": "./code\\controllers\\subsystem\\shuttles.dm",
+        "line_number": 48,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "hasShuttle",
+        "full_path": "/datum/controller/subsystem/shuttle/proc/hasShuttle(id)",
+        "file_location": "./code\\controllers\\subsystem\\shuttles.dm",
+        "line_number": 93,
+        "arguments": [
+            "id"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "getShuttle",
+        "full_path": "/datum/controller/subsystem/shuttle/proc/getShuttle(id)",
+        "file_location": "./code\\controllers\\subsystem\\shuttles.dm",
+        "line_number": 99,
+        "arguments": [
+            "id"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "getDock",
+        "full_path": "/datum/controller/subsystem/shuttle/proc/getDock(id)",
+        "file_location": "./code\\controllers\\subsystem\\shuttles.dm",
+        "line_number": 105,
+        "arguments": [
+            "id"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "toggleShuttle",
+        "full_path": "/datum/controller/subsystem/shuttle/proc/toggleShuttle(shuttleId, dockHome, dockAway, timed)",
+        "file_location": "./code\\controllers\\subsystem\\shuttles.dm",
+        "line_number": 112,
+        "arguments": [
+            "shuttleId",
+            "dockHome",
+            "dockAway",
+            "timed"
+        ],
+        "comment": "try to move/request to dockHome if possible, otherwise dockAway. Mainly used for admin buttons"
+    },
+    {
+        "proc_name": "moveShuttle",
+        "full_path": "/datum/controller/subsystem/shuttle/proc/moveShuttle(shuttleId, dockId, timed)",
+        "file_location": "./code\\controllers\\subsystem\\shuttles.dm",
+        "line_number": 136,
+        "arguments": [
+            "shuttleId",
+            "dockId",
+            "timed"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "moveShuttleToDock",
+        "full_path": "/datum/controller/subsystem/shuttle/proc/moveShuttleToDock(obj/docking_port/mobile/M, obj/docking_port/stationary/D, timed)",
+        "file_location": "./code\\controllers\\subsystem\\shuttles.dm",
+        "line_number": 142,
+        "arguments": [
+            "obj/docking_port/mobile/M",
+            "obj/docking_port/stationary/D",
+            "timed"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "request_transit_dock",
+        "full_path": "/datum/controller/subsystem/shuttle/proc/request_transit_dock(obj/docking_port/mobile/M)",
+        "file_location": "./code\\controllers\\subsystem\\shuttles.dm",
+        "line_number": 153,
+        "arguments": [
+            "obj/docking_port/mobile/M"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "generate_transit_dock",
+        "full_path": "/datum/controller/subsystem/shuttle/proc/generate_transit_dock(obj/docking_port/mobile/M)",
+        "file_location": "./code\\controllers\\subsystem\\shuttles.dm",
+        "line_number": 163,
+        "arguments": [
+            "obj/docking_port/mobile/M"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "is_in_shuttle_bounds",
+        "full_path": "/datum/controller/subsystem/shuttle/proc/is_in_shuttle_bounds(atom/A)",
+        "file_location": "./code\\controllers\\subsystem\\shuttles.dm",
+        "line_number": 273,
+        "arguments": [
+            "atom/A"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "get_containing_shuttle",
+        "full_path": "/datum/controller/subsystem/shuttle/proc/get_containing_shuttle(atom/A)",
+        "file_location": "./code\\controllers\\subsystem\\shuttles.dm",
+        "line_number": 281,
+        "arguments": [
+            "atom/A"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "get_containing_dock",
+        "full_path": "/datum/controller/subsystem/shuttle/proc/get_containing_dock(atom/A)",
+        "file_location": "./code\\controllers\\subsystem\\shuttles.dm",
+        "line_number": 288,
+        "arguments": [
+            "atom/A"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "get_dock_overlap",
+        "full_path": "/datum/controller/subsystem/shuttle/proc/get_dock_overlap(x0, y0, x1, y1, z)",
+        "file_location": "./code\\controllers\\subsystem\\shuttles.dm",
+        "line_number": 296,
+        "arguments": [
+            "x0",
+            "y0",
+            "x1",
+            "y1",
+            "z"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "update_hidden_docking_ports",
+        "full_path": "/datum/controller/subsystem/shuttle/proc/update_hidden_docking_ports(list/remove_turfs, list/add_turfs)",
+        "file_location": "./code\\controllers\\subsystem\\shuttles.dm",
+        "line_number": 310,
+        "arguments": [
+            "list/remove_turfs",
+            "list/add_turfs"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "load_template_to_transit",
+        "full_path": "/datum/controller/subsystem/shuttle/proc/load_template_to_transit(datum/map_template/shuttle/template)",
+        "file_location": "./code\\controllers\\subsystem\\shuttles.dm",
+        "line_number": 343,
+        "arguments": [
+            "datum/map_template/shuttle/template"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "action_load",
+        "full_path": "/datum/controller/subsystem/shuttle/proc/action_load(datum/map_template/shuttle/loading_template, obj/docking_port/stationary/destination_port)",
+        "file_location": "./code\\controllers\\subsystem\\shuttles.dm",
+        "line_number": 377,
+        "arguments": [
+            "datum/map_template/shuttle/loading_template",
+            "obj/docking_port/stationary/destination_port"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "load_template",
+        "full_path": "/datum/controller/subsystem/shuttle/proc/load_template(datum/map_template/shuttle/S)",
+        "file_location": "./code\\controllers\\subsystem\\shuttles.dm",
+        "line_number": 455,
+        "arguments": [
+            "datum/map_template/shuttle/S"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "unload_preview",
+        "full_path": "/datum/controller/subsystem/shuttle/proc/unload_preview()",
+        "file_location": "./code\\controllers\\subsystem\\shuttles.dm",
+        "line_number": 496,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "queue",
+        "full_path": "/datum/controller/subsystem/sound/proc/queue(datum/sound_template/template, list/client/hearers, list/datum/interior/extra_interiors)",
+        "file_location": "./code\\controllers\\subsystem\\sound.dm",
+        "line_number": 36,
+        "arguments": [
+            "datum/sound_template/template",
+            "list/client/hearers",
+            "list/datum/interior/extra_interiors"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "set_status_tab",
+        "full_path": "/datum/controller/subsystem/statpanels/proc/set_status_tab(client/target)",
+        "file_location": "./code\\controllers\\subsystem\\statpanel.dm",
+        "line_number": 102,
+        "arguments": [
+            "client/target"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "set_MC_tab",
+        "full_path": "/datum/controller/subsystem/statpanels/proc/set_MC_tab(client/target)",
+        "file_location": "./code\\controllers\\subsystem\\statpanel.dm",
+        "line_number": 114,
+        "arguments": [
+            "client/target"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "set_tickets_tab",
+        "full_path": "/datum/controller/subsystem/statpanels/proc/set_tickets_tab(client/target)",
+        "file_location": "./code\\controllers\\subsystem\\statpanel.dm",
+        "line_number": 121,
+        "arguments": [
+            "client/target"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "set_turf_examine_tab",
+        "full_path": "/datum/controller/subsystem/statpanels/proc/set_turf_examine_tab(client/target, mob/target_mob)",
+        "file_location": "./code\\controllers\\subsystem\\statpanel.dm",
+        "line_number": 125,
+        "arguments": [
+            "client/target",
+            "mob/target_mob"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "refresh_client_obj_view",
+        "full_path": "/datum/controller/subsystem/statpanels/proc/refresh_client_obj_view(client/refresh)",
+        "file_location": "./code\\controllers\\subsystem\\statpanel.dm",
+        "line_number": 153,
+        "arguments": [
+            "client/refresh"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "return_object_images",
+        "full_path": "/datum/controller/subsystem/statpanels/proc/return_object_images(client/load_from)",
+        "file_location": "./code\\controllers\\subsystem\\statpanel.dm",
+        "line_number": 162,
+        "arguments": [
+            "client/load_from"
+        ],
+        "comment": "/ Returns a list in the form list(list(object_name, object_ref, loaded_image), ...)"
+    },
+    {
+        "proc_name": "generate_mc_data",
+        "full_path": "/datum/controller/subsystem/statpanels/proc/generate_mc_data()",
+        "file_location": "./code\\controllers\\subsystem\\statpanel.dm",
+        "line_number": 194,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "set_SDQL2_tab",
+        "full_path": "/datum/controller/subsystem/statpanels/proc/set_SDQL2_tab(client/target)",
+        "file_location": "./code\\controllers\\subsystem\\statpanel.dm",
+        "line_number": 211,
+        "arguments": [
+            "client/target"
+        ],
+        "comment": "/ Sets the current tab to the SDQL tab"
+    },
+    {
+        "proc_name": "immediate_send_stat_data",
+        "full_path": "/datum/controller/subsystem/statpanels/proc/immediate_send_stat_data(client/target)",
+        "file_location": "./code\\controllers\\subsystem\\statpanel.dm",
+        "line_number": 222,
+        "arguments": [
+            "client/target"
+        ],
+        "comment": "/immediately update the active statpanel tab of the target client"
+    },
+    {
+        "proc_name": "start_turf_tracking",
+        "full_path": "/datum/object_window_info/proc/start_turf_tracking()",
+        "file_location": "./code\\controllers\\subsystem\\statpanel.dm",
+        "line_number": 337,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "stop_turf_tracking",
+        "full_path": "/datum/object_window_info/proc/stop_turf_tracking()",
+        "file_location": "./code\\controllers\\subsystem\\statpanel.dm",
+        "line_number": 347,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "on_mob_move",
+        "full_path": "/datum/object_window_info/proc/on_mob_move(mob/source)",
+        "file_location": "./code\\controllers\\subsystem\\statpanel.dm",
+        "line_number": 351,
+        "arguments": [
+            "mob/source"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "on_mob_logout",
+        "full_path": "/datum/object_window_info/proc/on_mob_logout(mob/source)",
+        "file_location": "./code\\controllers\\subsystem\\statpanel.dm",
+        "line_number": 357,
+        "arguments": [
+            "mob/source"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "viewing_atom_deleted",
+        "full_path": "/datum/object_window_info/proc/viewing_atom_deleted(atom/deleted)",
+        "file_location": "./code\\controllers\\subsystem\\statpanel.dm",
+        "line_number": 363,
+        "arguments": [
+            "atom/deleted"
+        ],
+        "comment": "/ We use hard refs cause we'd need a signal for this anyway. Cleaner this way"
+    },
+    {
+        "proc_name": "set_listed_turf",
+        "full_path": "/mob/proc/set_listed_turf(turf/new_turf)",
+        "file_location": "./code\\controllers\\subsystem\\statpanel.dm",
+        "line_number": 369,
+        "arguments": [
+            "turf/new_turf"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "get_avg_players",
+        "full_path": "/datum/controller/subsystem/stats_collector/proc/get_avg_players()",
+        "file_location": "./code\\controllers\\subsystem\\stats_collector.dm",
+        "line_number": 16,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "activate_passive_nodes",
+        "full_path": "/datum/controller/subsystem/techtree/proc/activate_passive_nodes()",
+        "file_location": "./code\\controllers\\subsystem\\techtree.dm",
+        "line_number": 76,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "activate_all_nodes",
+        "full_path": "/datum/controller/subsystem/techtree/proc/activate_all_nodes()",
+        "file_location": "./code\\controllers\\subsystem\\techtree.dm",
+        "line_number": 85,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "request_pooled_window",
+        "full_path": "/datum/controller/subsystem/tgui/proc/request_pooled_window(mob/user)",
+        "file_location": "./code\\controllers\\subsystem\\tgui.dm",
+        "line_number": 68,
+        "arguments": [
+            "mob/user"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "force_close_all_windows",
+        "full_path": "/datum/controller/subsystem/tgui/proc/force_close_all_windows(mob/user)",
+        "file_location": "./code\\controllers\\subsystem\\tgui.dm",
+        "line_number": 104,
+        "arguments": [
+            "mob/user"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "force_close_window",
+        "full_path": "/datum/controller/subsystem/tgui/proc/force_close_window(mob/user, window_id)",
+        "file_location": "./code\\controllers\\subsystem\\tgui.dm",
+        "line_number": 120,
+        "arguments": [
+            "mob/user",
+            "window_id"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "get_open_ui",
+        "full_path": "/datum/controller/subsystem/tgui/proc/get_open_ui(mob/user, datum/src_object)",
+        "file_location": "./code\\controllers\\subsystem\\tgui.dm",
+        "line_number": 173,
+        "arguments": [
+            "mob/user",
+            "datum/src_object"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "update_uis",
+        "full_path": "/datum/controller/subsystem/tgui/proc/update_uis(datum/src_object)",
+        "file_location": "./code\\controllers\\subsystem\\tgui.dm",
+        "line_number": 193,
+        "arguments": [
+            "datum/src_object"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "close_uis",
+        "full_path": "/datum/controller/subsystem/tgui/proc/close_uis(datum/src_object)",
+        "file_location": "./code\\controllers\\subsystem\\tgui.dm",
+        "line_number": 215,
+        "arguments": [
+            "datum/src_object"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "close_all_uis",
+        "full_path": "/datum/controller/subsystem/tgui/proc/close_all_uis()",
+        "file_location": "./code\\controllers\\subsystem\\tgui.dm",
+        "line_number": 235,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "update_user_uis",
+        "full_path": "/datum/controller/subsystem/tgui/proc/update_user_uis(mob/user, datum/src_object)",
+        "file_location": "./code\\controllers\\subsystem\\tgui.dm",
+        "line_number": 255,
+        "arguments": [
+            "mob/user",
+            "datum/src_object"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "close_user_uis",
+        "full_path": "/datum/controller/subsystem/tgui/proc/close_user_uis(mob/user, datum/src_object)",
+        "file_location": "./code\\controllers\\subsystem\\tgui.dm",
+        "line_number": 275,
+        "arguments": [
+            "mob/user",
+            "datum/src_object"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "on_open",
+        "full_path": "/datum/controller/subsystem/tgui/proc/on_open(datum/tgui/ui)",
+        "file_location": "./code\\controllers\\subsystem\\tgui.dm",
+        "line_number": 292,
+        "arguments": [
+            "datum/tgui/ui"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "on_close",
+        "full_path": "/datum/controller/subsystem/tgui/proc/on_close(datum/tgui/ui)",
+        "file_location": "./code\\controllers\\subsystem\\tgui.dm",
+        "line_number": 310,
+        "arguments": [
+            "datum/tgui/ui"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "on_logout",
+        "full_path": "/datum/controller/subsystem/tgui/proc/on_logout(mob/user)",
+        "file_location": "./code\\controllers\\subsystem\\tgui.dm",
+        "line_number": 334,
+        "arguments": [
+            "mob/user"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "on_transfer",
+        "full_path": "/datum/controller/subsystem/tgui/proc/on_transfer(mob/source, mob/target)",
+        "file_location": "./code\\controllers\\subsystem\\tgui.dm",
+        "line_number": 347,
+        "arguments": [
+            "mob/source",
+            "mob/target"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "request_start",
+        "full_path": "/datum/controller/subsystem/ticker/proc/request_start()",
+        "file_location": "./code\\controllers\\subsystem\\ticker.dm",
+        "line_number": 118,
+        "arguments": [],
+        "comment": "/ Attempt to start game asynchronously if applicable"
+    },
+    {
+        "proc_name": "setup_start",
+        "full_path": "/datum/controller/subsystem/ticker/proc/setup_start()",
+        "file_location": "./code\\controllers\\subsystem\\ticker.dm",
+        "line_number": 147,
+        "arguments": [],
+        "comment": "/ Try to effectively setup gamemode and start now"
+    },
+    {
+        "proc_name": "handle_map_reboot",
+        "full_path": "/datum/controller/subsystem/ticker/proc/handle_map_reboot()",
+        "file_location": "./code\\controllers\\subsystem\\ticker.dm",
+        "line_number": 159,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "setup",
+        "full_path": "/datum/controller/subsystem/ticker/proc/setup()",
+        "file_location": "./code\\controllers\\subsystem\\ticker.dm",
+        "line_number": 169,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "PostSetup",
+        "full_path": "/datum/controller/subsystem/ticker/proc/PostSetup()",
+        "file_location": "./code\\controllers\\subsystem\\ticker.dm",
+        "line_number": 247,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "OnRoundstart",
+        "full_path": "/datum/controller/subsystem/ticker/proc/OnRoundstart(datum/callback/cb)",
+        "file_location": "./code\\controllers\\subsystem\\ticker.dm",
+        "line_number": 272,
+        "arguments": [
+            "datum/callback/cb"
+        ],
+        "comment": "These callbacks will fire after roundstart key transfer"
+    },
+    {
+        "proc_name": "OnRoundend",
+        "full_path": "/datum/controller/subsystem/ticker/proc/OnRoundend(datum/callback/cb)",
+        "file_location": "./code\\controllers\\subsystem\\ticker.dm",
+        "line_number": 280,
+        "arguments": [
+            "datum/callback/cb"
+        ],
+        "comment": "These callbacks will fire before roundend report"
+    },
+    {
+        "proc_name": "HasRoundStarted",
+        "full_path": "/datum/controller/subsystem/ticker/proc/HasRoundStarted()",
+        "file_location": "./code\\controllers\\subsystem\\ticker.dm",
+        "line_number": 286,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "IsRoundInProgress",
+        "full_path": "/datum/controller/subsystem/ticker/proc/IsRoundInProgress()",
+        "file_location": "./code\\controllers\\subsystem\\ticker.dm",
+        "line_number": 290,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "GetTimeLeft",
+        "full_path": "/datum/controller/subsystem/ticker/proc/GetTimeLeft()",
+        "file_location": "./code\\controllers\\subsystem\\ticker.dm",
+        "line_number": 321,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "SetTimeLeft",
+        "full_path": "/datum/controller/subsystem/ticker/proc/SetTimeLeft(newtime)",
+        "file_location": "./code\\controllers\\subsystem\\ticker.dm",
+        "line_number": 327,
+        "arguments": [
+            "newtime"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "load_mode",
+        "full_path": "/datum/controller/subsystem/ticker/proc/load_mode()",
+        "file_location": "./code\\controllers\\subsystem\\ticker.dm",
+        "line_number": 334,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "save_mode",
+        "full_path": "/datum/controller/subsystem/ticker/proc/save_mode(the_mode)",
+        "file_location": "./code\\controllers\\subsystem\\ticker.dm",
+        "line_number": 343,
+        "arguments": [
+            "the_mode"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "Reboot",
+        "full_path": "/datum/controller/subsystem/ticker/proc/Reboot(reason, delay)",
+        "file_location": "./code\\controllers\\subsystem\\ticker.dm",
+        "line_number": 348,
+        "arguments": [
+            "reason",
+            "delay"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "create_characters",
+        "full_path": "/datum/controller/subsystem/ticker/proc/create_characters()",
+        "file_location": "./code\\controllers\\subsystem\\ticker.dm",
+        "line_number": 381,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "spawn_and_equip_char",
+        "full_path": "/datum/controller/subsystem/ticker/proc/spawn_and_equip_char(mob/new_player/player)",
+        "file_location": "./code\\controllers\\subsystem\\ticker.dm",
+        "line_number": 391,
+        "arguments": [
+            "mob/new_player/player"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "old_create_characters",
+        "full_path": "/datum/controller/subsystem/ticker/proc/old_create_characters()",
+        "file_location": "./code\\controllers\\subsystem\\ticker.dm",
+        "line_number": 409,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "equip_characters",
+        "full_path": "/datum/controller/subsystem/ticker/proc/equip_characters()",
+        "file_location": "./code\\controllers\\subsystem\\ticker.dm",
+        "line_number": 420,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "send_tip_of_the_round",
+        "full_path": "/datum/controller/subsystem/ticker/proc/send_tip_of_the_round()",
+        "file_location": "./code\\controllers\\subsystem\\ticker.dm",
+        "line_number": 443,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "apply_lazy_timings",
+        "full_path": "/datum/controller/subsystem/ticker/proc/apply_lazy_timings()",
+        "file_location": "./code\\controllers\\subsystem\\ticker.dm",
+        "line_number": 459,
+        "arguments": [],
+        "comment": "/ Placeholder proc to apply slower SS timings for performance. Should be refactored to be included in Master/SS probably. Note we can't change prios after MC init."
+    },
+    {
+        "proc_name": "set_clients_taskbar_icon",
+        "full_path": "/datum/controller/subsystem/ticker/proc/set_clients_taskbar_icon(taskbar_icon)",
+        "file_location": "./code\\controllers\\subsystem\\ticker.dm",
+        "line_number": 475,
+        "arguments": [
+            "taskbar_icon"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "handle_mode_icon",
+        "full_path": "/datum/controller/subsystem/ticker/proc/handle_mode_icon(dcs, client/C)",
+        "file_location": "./code\\controllers\\subsystem\\ticker.dm",
+        "line_number": 479,
+        "arguments": [
+            "dcs",
+            "client/C"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "hijack_ocurred",
+        "full_path": "/datum/controller/subsystem/ticker/proc/hijack_ocurred()",
+        "file_location": "./code\\controllers\\subsystem\\ticker.dm",
+        "line_number": 485,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "dump_timer_buckets",
+        "full_path": "/datum/controller/subsystem/timer/proc/dump_timer_buckets(full = TRUE)",
+        "file_location": "./code\\controllers\\subsystem\\timer.dm",
+        "line_number": 64,
+        "arguments": [
+            "full = TRUE"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "get_timer_debug_string",
+        "full_path": "/datum/controller/subsystem/timer/proc/get_timer_debug_string(datum/timedevent/TE)",
+        "file_location": "./code\\controllers\\subsystem\\timer.dm",
+        "line_number": 224,
+        "arguments": [
+            "datum/timedevent/TE"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "reset_buckets",
+        "full_path": "/datum/controller/subsystem/timer/proc/reset_buckets()",
+        "file_location": "./code\\controllers\\subsystem\\timer.dm",
+        "line_number": 237,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "bucketEject",
+        "full_path": "/datum/timedevent/proc/bucketEject()",
+        "file_location": "./code\\controllers\\subsystem\\timer.dm",
+        "line_number": 462,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "bucketJoin",
+        "full_path": "/datum/timedevent/proc/bucketJoin()",
+        "file_location": "./code\\controllers\\subsystem\\timer.dm",
+        "line_number": 505,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "getcallingtype",
+        "full_path": "/datum/timedevent/proc/getcallingtype()",
+        "file_location": "./code\\controllers\\subsystem\\timer.dm",
+        "line_number": 557,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "_addtimer",
+        "full_path": "proc/_addtimer(datum/callback/callback, wait = 0, flags = 0, datum/controller/subsystem/timer/timer_subsystem, file, line)",
+        "file_location": "./code\\controllers\\subsystem\\timer.dm",
+        "line_number": 574,
+        "arguments": [
+            "datum/callback/callback",
+            "wait = 0",
+            "flags = 0",
+            "datum/controller/subsystem/timer/timer_subsystem",
+            "file",
+            "line"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "deltimer",
+        "full_path": "proc/deltimer(id, datum/controller/subsystem/timer/timer_subsystem)",
+        "file_location": "./code\\controllers\\subsystem\\timer.dm",
+        "line_number": 628,
+        "arguments": [
+            "id",
+            "datum/controller/subsystem/timer/timer_subsystem"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "timeleft",
+        "full_path": "proc/timeleft(id, datum/controller/subsystem/timer/timer_subsystem)",
+        "file_location": "./code\\controllers\\subsystem\\timer.dm",
+        "line_number": 650,
+        "arguments": [
+            "id",
+            "datum/controller/subsystem/timer/timer_subsystem"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "updatetimedelay",
+        "full_path": "proc/updatetimedelay(id, new_wait, datum/controller/subsystem/timer/timer_subsystem)",
+        "file_location": "./code\\controllers\\subsystem\\timer.dm",
+        "line_number": 673,
+        "arguments": [
+            "id",
+            "new_wait",
+            "datum/controller/subsystem/timer/timer_subsystem"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "start_tracking",
+        "full_path": "/datum/controller/subsystem/tracking/proc/start_tracking(tracked_group, mob/living/carbon/mob)",
+        "file_location": "./code\\controllers\\subsystem\\tracking.dm",
+        "line_number": 60,
+        "arguments": [
+            "tracked_group",
+            "mob/living/carbon/mob"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "stop_tracking",
+        "full_path": "/datum/controller/subsystem/tracking/proc/stop_tracking(tracked_group, mob/living/carbon/mob)",
+        "file_location": "./code\\controllers\\subsystem\\tracking.dm",
+        "line_number": 72,
+        "arguments": [
+            "tracked_group",
+            "mob/living/carbon/mob"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "start_misc_tracking",
+        "full_path": "/datum/controller/subsystem/tracking/proc/start_misc_tracking(mob/living/carbon/mob)",
+        "file_location": "./code\\controllers\\subsystem\\tracking.dm",
+        "line_number": 84,
+        "arguments": [
+            "mob/living/carbon/mob"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "stop_misc_tracking",
+        "full_path": "/datum/controller/subsystem/tracking/proc/stop_misc_tracking(mob/living/carbon/mob)",
+        "file_location": "./code\\controllers\\subsystem\\tracking.dm",
+        "line_number": 87,
+        "arguments": [
+            "mob/living/carbon/mob"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "set_leader",
+        "full_path": "/datum/controller/subsystem/tracking/proc/set_leader(tracked_group, mob/living/carbon/mob)",
+        "file_location": "./code\\controllers\\subsystem\\tracking.dm",
+        "line_number": 90,
+        "arguments": [
+            "tracked_group",
+            "mob/living/carbon/mob"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "delete_leader",
+        "full_path": "/datum/controller/subsystem/tracking/proc/delete_leader(tracked_group)",
+        "file_location": "./code\\controllers\\subsystem\\tracking.dm",
+        "line_number": 96,
+        "arguments": [
+            "tracked_group"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "setup_trackers",
+        "full_path": "/datum/controller/subsystem/tracking/proc/setup_trackers(mob/mob, tracked_group)",
+        "file_location": "./code\\controllers\\subsystem\\tracking.dm",
+        "line_number": 99,
+        "arguments": [
+            "mob/mob",
+            "tracked_group"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "initialize_trackers",
+        "full_path": "/datum/controller/subsystem/tracking/proc/initialize_trackers()",
+        "file_location": "./code\\controllers\\subsystem\\tracking.dm",
+        "line_number": 108,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "reset",
+        "full_path": "/datum/controller/subsystem/vote/proc/reset()",
+        "file_location": "./code\\controllers\\subsystem\\vote.dm",
+        "line_number": 45,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "get_result",
+        "full_path": "/datum/controller/subsystem/vote/proc/get_result()",
+        "file_location": "./code\\controllers\\subsystem\\vote.dm",
+        "line_number": 68,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "announce_result",
+        "full_path": "/datum/controller/subsystem/vote/proc/announce_result()",
+        "file_location": "./code\\controllers\\subsystem\\vote.dm",
+        "line_number": 110,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "result",
+        "full_path": "/datum/controller/subsystem/vote/proc/result()",
+        "file_location": "./code\\controllers\\subsystem\\vote.dm",
+        "line_number": 155,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "handle_client_joining",
+        "full_path": "/datum/controller/subsystem/vote/proc/handle_client_joining(dcs, client/C)",
+        "file_location": "./code\\controllers\\subsystem\\vote.dm",
+        "line_number": 194,
+        "arguments": [
+            "dcs",
+            "client/C"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "submit_vote",
+        "full_path": "/datum/controller/subsystem/vote/proc/submit_vote(vote)",
+        "file_location": "./code\\controllers\\subsystem\\vote.dm",
+        "line_number": 202,
+        "arguments": [
+            "vote"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "carry_over_callback",
+        "full_path": "/datum/controller/subsystem/vote/proc/carry_over_callback(list/datum/entity/map_vote/votes)",
+        "file_location": "./code\\controllers\\subsystem\\vote.dm",
+        "line_number": 215,
+        "arguments": [
+            "list/datum/entity/map_vote/votes"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "initiate_vote",
+        "full_path": "/datum/controller/subsystem/vote/proc/initiate_vote(vote_type, initiator_key, datum/callback/on_end, send_clients_vote = FALSE)",
+        "file_location": "./code\\controllers\\subsystem\\vote.dm",
+        "line_number": 234,
+        "arguments": [
+            "vote_type",
+            "initiator_key",
+            "datum/callback/on_end",
+            "send_clients_vote = FALSE"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "map_vote_adjustment",
+        "full_path": "/datum/controller/subsystem/vote/proc/map_vote_adjustment(current_votes, carry_over, total_votes)",
+        "file_location": "./code\\controllers\\subsystem\\vote.dm",
+        "line_number": 378,
+        "arguments": [
+            "current_votes",
+            "carry_over",
+            "total_votes"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "remove_action_buttons",
+        "full_path": "/datum/controller/subsystem/vote/proc/remove_action_buttons()",
+        "file_location": "./code\\controllers\\subsystem\\vote.dm",
+        "line_number": 395,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "remove_vote_action",
+        "full_path": "/datum/action/innate/vote/proc/remove_vote_action(datum/source)",
+        "file_location": "./code\\controllers\\subsystem\\vote.dm",
+        "line_number": 406,
+        "arguments": [
+            "datum/source"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "remove_from_client",
+        "full_path": "/datum/action/innate/vote/proc/remove_from_client()",
+        "file_location": "./code\\controllers\\subsystem\\vote.dm",
+        "line_number": 416,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "get_config_restrictions",
+        "full_path": "/datum/controller/subsystem/vote/proc/get_config_restrictions()",
+        "file_location": "./code\\controllers\\subsystem\\vote.dm",
+        "line_number": 446,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "setup_weather_areas",
+        "full_path": "/datum/controller/subsystem/weather/proc/setup_weather_areas()",
+        "file_location": "./code\\controllers\\subsystem\\weather.dm",
+        "line_number": 47,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "force_weather_holder",
+        "full_path": "/datum/controller/subsystem/weather/proc/force_weather_holder(weather_holder)",
+        "file_location": "./code\\controllers\\subsystem\\weather.dm",
+        "line_number": 59,
+        "arguments": [
+            "weather_holder"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "setup_weather_event",
+        "full_path": "/datum/controller/subsystem/weather/proc/setup_weather_event(event_typepath)",
+        "file_location": "./code\\controllers\\subsystem\\weather.dm",
+        "line_number": 107,
+        "arguments": [
+            "event_typepath"
+        ],
+        "comment": "/ Startup of an arbitrary weather event if none is running. Returns TRUE if successful."
+    },
+    {
+        "proc_name": "start_weather_event",
+        "full_path": "/datum/controller/subsystem/weather/proc/start_weather_event()",
+        "file_location": "./code\\controllers\\subsystem\\weather.dm",
+        "line_number": 120,
+        "arguments": [],
+        "comment": "now weather."
+    },
+    {
+        "proc_name": "end_weather_event",
+        "full_path": "/datum/controller/subsystem/weather/proc/end_weather_event()",
+        "file_location": "./code\\controllers\\subsystem\\weather.dm",
+        "line_number": 159,
+        "arguments": [],
+        "comment": "no more weather."
+    },
+    {
+        "proc_name": "update_mobs_weather",
+        "full_path": "/datum/controller/subsystem/weather/proc/update_mobs_weather()",
+        "file_location": "./code\\controllers\\subsystem\\weather.dm",
+        "line_number": 191,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "get_evolution_boost_power",
+        "full_path": "/datum/controller/subsystem/xevolution/proc/get_evolution_boost_power(hivenumber)",
+        "file_location": "./code\\controllers\\subsystem\\x_evolution.dm",
+        "line_number": 54,
+        "arguments": [
+            "hivenumber"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "process",
+        "full_path": "/datum/proc/process(delta_time)",
+        "file_location": "./code\\controllers\\subsystem\\processing\\processing.dm",
+        "line_number": 49,
+        "arguments": [
+            "delta_time"
+        ],
+        "comment": null
+    }
+]

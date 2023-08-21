@@ -1,0 +1,1524 @@
+[
+    {
+        "proc_name": "Adjacent",
+        "full_path": "/atom/proc/Adjacent(atom/neighbor)",
+        "file_location": "./code\\_onclick\\adjacent.dm",
+        "line_number": 13,
+        "arguments": [
+            "atom/neighbor"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "AdjacentQuick",
+        "full_path": "/turf/proc/AdjacentQuick(atom/neighbor, atom/target = null)",
+        "file_location": "./code\\_onclick\\adjacent.dm",
+        "line_number": 63,
+        "arguments": [
+            "atom/neighbor",
+            "atom/target = null"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "ClickCross",
+        "full_path": "/turf/proc/ClickCross(target_dir, border_only, target_atom = null)",
+        "file_location": "./code\\_onclick\\adjacent.dm",
+        "line_number": 129,
+        "arguments": [
+            "target_dir",
+            "border_only",
+            "target_atom = null"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "handle_barriers",
+        "full_path": "/atom/proc/handle_barriers(atom/A, list/atom/ignore = list()",
+        "file_location": "./code\\_onclick\\adjacent.dm",
+        "line_number": 154,
+        "arguments": [
+            "atom/A",
+            "list/atom/ignore = list("
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "clear_path",
+        "full_path": "/atom/proc/clear_path(atom/A, list/atom/ignore = list()",
+        "file_location": "./code\\_onclick\\adjacent.dm",
+        "line_number": 286,
+        "arguments": [
+            "atom/A",
+            "list/atom/ignore = list("
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "attack_remote",
+        "full_path": "/atom/proc/attack_remote(mob/user as mob)",
+        "file_location": "./code\\_onclick\\ai.dm",
+        "line_number": 62,
+        "arguments": [
+            "mob/user as mob"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "AICtrlShiftClick",
+        "full_path": "/atom/proc/AICtrlShiftClick()",
+        "file_location": "./code\\_onclick\\ai.dm",
+        "line_number": 70,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "AIShiftClick",
+        "full_path": "/atom/proc/AIShiftClick()",
+        "file_location": "./code\\_onclick\\ai.dm",
+        "line_number": 73,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "AICtrlClick",
+        "full_path": "/atom/proc/AICtrlClick()",
+        "file_location": "./code\\_onclick\\ai.dm",
+        "line_number": 83,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "AIAltClick",
+        "full_path": "/atom/proc/AIAltClick()",
+        "file_location": "./code\\_onclick\\ai.dm",
+        "line_number": 86,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "AIMiddleClick",
+        "full_path": "/atom/proc/AIMiddleClick()",
+        "file_location": "./code\\_onclick\\ai.dm",
+        "line_number": 106,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "do_click",
+        "full_path": "/mob/proc/do_click(atom/A, location, params)",
+        "file_location": "./code\\_onclick\\click.dm",
+        "line_number": 25,
+        "arguments": [
+            "atom/A",
+            "location",
+            "params"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "click_adjacent",
+        "full_path": "/mob/proc/click_adjacent(atom/A, obj/item/W, mods)",
+        "file_location": "./code\\_onclick\\click.dm",
+        "line_number": 147,
+        "arguments": [
+            "atom/A",
+            "obj/item/W",
+            "mods"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "check_click_intercept",
+        "full_path": "/mob/proc/check_click_intercept(params,A)",
+        "file_location": "./code\\_onclick\\click.dm",
+        "line_number": 164,
+        "arguments": [
+            "params",
+            "A"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "click",
+        "full_path": "/mob/proc/click(atom/A, list/mods)",
+        "file_location": "./code\\_onclick\\click.dm",
+        "line_number": 191,
+        "arguments": [
+            "atom/A",
+            "list/mods"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "clicked",
+        "full_path": "/atom/proc/clicked(mob/user, list/mods)",
+        "file_location": "./code\\_onclick\\click.dm",
+        "line_number": 194,
+        "arguments": [
+            "mob/user",
+            "list/mods"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "UnarmedAttack",
+        "full_path": "/mob/proc/UnarmedAttack(atom/A, proximity_flag, click_parameters)",
+        "file_location": "./code\\_onclick\\click.dm",
+        "line_number": 228,
+        "arguments": [
+            "atom/A",
+            "proximity_flag",
+            "click_parameters"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "RangedAttack",
+        "full_path": "/mob/proc/RangedAttack(atom/A, params)",
+        "file_location": "./code\\_onclick\\click.dm",
+        "line_number": 239,
+        "arguments": [
+            "atom/A",
+            "params"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "RestrainedClickOn",
+        "full_path": "/mob/proc/RestrainedClickOn(atom/A)",
+        "file_location": "./code\\_onclick\\click.dm",
+        "line_number": 248,
+        "arguments": [
+            "atom/A"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "face_atom",
+        "full_path": "/mob/proc/face_atom(atom/A)",
+        "file_location": "./code\\_onclick\\click.dm",
+        "line_number": 258,
+        "arguments": [
+            "atom/A"
+        ],
+        "comment": "Simple helper to face what you clicked on, in case it should be needed in more than one place"
+    },
+    {
+        "proc_name": "UpdateGreed",
+        "full_path": "/atom/movable/screen/click_catcher/proc/UpdateGreed(view_size_x = 15, view_size_y = 15)",
+        "file_location": "./code\\_onclick\\click.dm",
+        "line_number": 310,
+        "arguments": [
+            "view_size_x = 15",
+            "view_size_y = 15"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "change_view",
+        "full_path": "/client/proc/change_view(new_size, atom/source)",
+        "file_location": "./code\\_onclick\\click.dm",
+        "line_number": 327,
+        "arguments": [
+            "new_size",
+            "atom/source"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "get_adaptive_zoom_factor",
+        "full_path": "/client/proc/get_adaptive_zoom_factor()",
+        "file_location": "./code\\_onclick\\click.dm",
+        "line_number": 339,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "adaptive_zoom",
+        "full_path": "/client/proc/adaptive_zoom()",
+        "file_location": "./code\\_onclick\\click.dm",
+        "line_number": 351,
+        "arguments": [],
+        "comment": "/ Attempts to scale client zoom automatically to fill 1080p multiples. Best used with auto fit viewport."
+    },
+    {
+        "proc_name": "create_clickcatcher",
+        "full_path": "/client/proc/create_clickcatcher()",
+        "file_location": "./code\\_onclick\\click.dm",
+        "line_number": 357,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "apply_clickcatcher",
+        "full_path": "/client/proc/apply_clickcatcher()",
+        "file_location": "./code\\_onclick\\click.dm",
+        "line_number": 362,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "params2turf",
+        "full_path": "proc/params2turf(scr_loc, turf/origin, client/C)",
+        "file_location": "./code\\_onclick\\click.dm",
+        "line_number": 367,
+        "arguments": [
+            "scr_loc",
+            "turf/origin",
+            "client/C"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "getviewsize",
+        "full_path": "proc/getviewsize(view)",
+        "file_location": "./code\\_onclick\\click.dm",
+        "line_number": 384,
+        "arguments": [
+            "view"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "autoclick",
+        "full_path": "/obj/item/clickrate_test/proc/autoclick(mob/user, atom/A, params)",
+        "file_location": "./code\\_onclick\\click.dm",
+        "line_number": 426,
+        "arguments": [
+            "mob/user",
+            "atom/A",
+            "params"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "BorgCtrlShiftClick",
+        "full_path": "/atom/proc/BorgCtrlShiftClick(mob/living/silicon/robot/user)",
+        "file_location": "./code\\_onclick\\cyborg.dm",
+        "line_number": 94,
+        "arguments": [
+            "mob/living/silicon/robot/user"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "BorgShiftClick",
+        "full_path": "/atom/proc/BorgShiftClick(mob/living/silicon/robot/user)",
+        "file_location": "./code\\_onclick\\cyborg.dm",
+        "line_number": 100,
+        "arguments": [
+            "mob/living/silicon/robot/user"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "BorgCtrlClick",
+        "full_path": "/atom/proc/BorgCtrlClick(mob/living/silicon/robot/user)",
+        "file_location": "./code\\_onclick\\cyborg.dm",
+        "line_number": 107,
+        "arguments": [
+            "mob/living/silicon/robot/user"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "BorgAltClick",
+        "full_path": "/atom/proc/BorgAltClick(mob/living/silicon/robot/user)",
+        "file_location": "./code\\_onclick\\cyborg.dm",
+        "line_number": 119,
+        "arguments": [
+            "mob/living/silicon/robot/user"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "attack_robot",
+        "full_path": "/atom/proc/attack_robot(mob/user as mob)",
+        "file_location": "./code\\_onclick\\cyborg.dm",
+        "line_number": 141,
+        "arguments": [
+            "mob/user as mob"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "DblClickOn",
+        "full_path": "/mob/proc/DblClickOn(atom/A, params)",
+        "file_location": "./code\\_onclick\\double_click.dm",
+        "line_number": 2,
+        "arguments": [
+            "atom/A",
+            "params"
+        ],
+        "comment": "Default behavior: ignore double clicks (the second click that makes the doubleclick call already calls for a normal click)"
+    },
+    {
+        "proc_name": "ShiftMiddleDblClickOn",
+        "full_path": "/mob/proc/ShiftMiddleDblClickOn(atom/A)",
+        "file_location": "./code\\_onclick\\double_click.dm",
+        "line_number": 27,
+        "arguments": [
+            "atom/A"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "ShiftMiddleDblClick",
+        "full_path": "/atom/proc/ShiftMiddleDblClick(mob/user)",
+        "file_location": "./code\\_onclick\\double_click.dm",
+        "line_number": 30,
+        "arguments": [
+            "mob/user"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "CtrlShiftDblClickOn",
+        "full_path": "/mob/proc/CtrlShiftDblClickOn(atom/A)",
+        "file_location": "./code\\_onclick\\double_click.dm",
+        "line_number": 34,
+        "arguments": [
+            "atom/A"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "CtrlShiftDblClick",
+        "full_path": "/atom/proc/CtrlShiftDblClick(mob/user)",
+        "file_location": "./code\\_onclick\\double_click.dm",
+        "line_number": 37,
+        "arguments": [
+            "mob/user"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "CtrlMiddleDblClickOn",
+        "full_path": "/mob/proc/CtrlMiddleDblClickOn(atom/A)",
+        "file_location": "./code\\_onclick\\double_click.dm",
+        "line_number": 41,
+        "arguments": [
+            "atom/A"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "CtrlMiddleDblClick",
+        "full_path": "/atom/proc/CtrlMiddleDblClick(mob/user)",
+        "file_location": "./code\\_onclick\\double_click.dm",
+        "line_number": 44,
+        "arguments": [
+            "mob/user"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "MiddleDblClickOn",
+        "full_path": "/mob/proc/MiddleDblClickOn(atom/A)",
+        "file_location": "./code\\_onclick\\double_click.dm",
+        "line_number": 48,
+        "arguments": [
+            "atom/A"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "MiddleDblClick",
+        "full_path": "/atom/proc/MiddleDblClick(mob/user)",
+        "file_location": "./code\\_onclick\\double_click.dm",
+        "line_number": 51,
+        "arguments": [
+            "mob/user"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "ShiftDblClickOn",
+        "full_path": "/mob/proc/ShiftDblClickOn(atom/A)",
+        "file_location": "./code\\_onclick\\double_click.dm",
+        "line_number": 55,
+        "arguments": [
+            "atom/A"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "ShiftDblClick",
+        "full_path": "/atom/proc/ShiftDblClick(mob/user)",
+        "file_location": "./code\\_onclick\\double_click.dm",
+        "line_number": 58,
+        "arguments": [
+            "mob/user"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "AltDblClickOn",
+        "full_path": "/mob/proc/AltDblClickOn(atom/A)",
+        "file_location": "./code\\_onclick\\double_click.dm",
+        "line_number": 62,
+        "arguments": [
+            "atom/A"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "AltDblClick",
+        "full_path": "/atom/proc/AltDblClick(mob/user)",
+        "file_location": "./code\\_onclick\\double_click.dm",
+        "line_number": 65,
+        "arguments": [
+            "mob/user"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "CtrlDblClickOn",
+        "full_path": "/mob/proc/CtrlDblClickOn(atom/A)",
+        "file_location": "./code\\_onclick\\double_click.dm",
+        "line_number": 69,
+        "arguments": [
+            "atom/A"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "CtrlDblClick",
+        "full_path": "/atom/proc/CtrlDblClick(mob/user)",
+        "file_location": "./code\\_onclick\\double_click.dm",
+        "line_number": 72,
+        "arguments": [
+            "mob/user"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "MouseDrop_T",
+        "full_path": "/atom/proc/MouseDrop_T(atom/dropping, mob/user)",
+        "file_location": "./code\\_onclick\\drag_drop.dm",
+        "line_number": 22,
+        "arguments": [
+            "atom/dropping",
+            "mob/user"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "handle_click",
+        "full_path": "/datum/proc/handle_click(mob/living/carbon/human/user, atom/A, params)",
+        "file_location": "./code\\_onclick\\human.dm",
+        "line_number": 85,
+        "arguments": [
+            "mob/living/carbon/human/user",
+            "atom/A",
+            "params"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "attack_hand",
+        "full_path": "/atom/proc/attack_hand(mob/user)",
+        "file_location": "./code\\_onclick\\human.dm",
+        "line_number": 88,
+        "arguments": [
+            "mob/user"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "attack_self",
+        "full_path": "/obj/item/proc/attack_self(mob/user)",
+        "file_location": "./code\\_onclick\\item_attack.dm",
+        "line_number": 3,
+        "arguments": [
+            "mob/user"
+        ],
+        "comment": "Called when the item is in the active hand, and clicked; alternately, there is an 'activate held object' verb or you can hit pagedown."
+    },
+    {
+        "proc_name": "attackby",
+        "full_path": "/atom/proc/attackby(obj/item/W, mob/living/user,list/mods)",
+        "file_location": "./code\\_onclick\\item_attack.dm",
+        "line_number": 11,
+        "arguments": [
+            "obj/item/W",
+            "mob/living/user",
+            "list/mods"
+        ],
+        "comment": "No comment"
+    },
+    {
+        "proc_name": "afterattack",
+        "full_path": "/obj/item/proc/afterattack(atom/target, mob/user, proximity_flag, click_parameters)",
+        "file_location": "./code\\_onclick\\item_attack.dm",
+        "line_number": 40,
+        "arguments": [
+            "atom/target",
+            "mob/user",
+            "proximity_flag",
+            "click_parameters"
+        ],
+        "comment": "Click parameters is the params string from byond Click() code, see that documentation."
+    },
+    {
+        "proc_name": "attack",
+        "full_path": "/obj/item/proc/attack(mob/living/M, mob/living/user)",
+        "file_location": "./code\\_onclick\\item_attack.dm",
+        "line_number": 44,
+        "arguments": [
+            "mob/living/M",
+            "mob/living/user"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "attack_ghost",
+        "full_path": "/atom/proc/attack_ghost(mob/dead/observer/user)",
+        "file_location": "./code\\_onclick\\observer.dm",
+        "line_number": 89,
+        "arguments": [
+            "mob/dead/observer/user"
+        ],
+        "comment": "Oh by the way this didn't work with old click code which is why clicking shit didn't spam you"
+    },
+    {
+        "proc_name": "attack_admin",
+        "full_path": "/atom/proc/attack_admin(mob/user as mob)",
+        "file_location": "./code\\_onclick\\observer.dm",
+        "line_number": 129,
+        "arguments": [
+            "mob/user as mob"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "attack_animal",
+        "full_path": "/atom/proc/attack_animal(mob/user as mob)",
+        "file_location": "./code\\_onclick\\other_mobs.dm",
+        "line_number": 29,
+        "arguments": [
+            "mob/user as mob"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "can_ventcrawl",
+        "full_path": "/mob/living/proc/can_ventcrawl()",
+        "file_location": "./code\\_onclick\\ventcrawl.dm",
+        "line_number": 1,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "ventcrawl_carry",
+        "full_path": "/mob/living/proc/ventcrawl_carry()",
+        "file_location": "./code\\_onclick\\ventcrawl.dm",
+        "line_number": 4,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "start_ventcrawl",
+        "full_path": "/mob/proc/start_ventcrawl()",
+        "file_location": "./code\\_onclick\\ventcrawl.dm",
+        "line_number": 21,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "handle_ventcrawl",
+        "full_path": "/mob/living/proc/handle_ventcrawl(atom/clicked_on)",
+        "file_location": "./code\\_onclick\\ventcrawl.dm",
+        "line_number": 43,
+        "arguments": [
+            "atom/clicked_on"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "update_pipe_icons",
+        "full_path": "/mob/living/proc/update_pipe_icons(obj/structure/pipes/P)",
+        "file_location": "./code\\_onclick\\ventcrawl.dm",
+        "line_number": 103,
+        "arguments": [
+            "obj/structure/pipes/P"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "remove_ventcrawl",
+        "full_path": "/mob/living/proc/remove_ventcrawl()",
+        "file_location": "./code\\_onclick\\ventcrawl.dm",
+        "line_number": 117,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "remove_specific_pipe_image",
+        "full_path": "/mob/living/proc/remove_specific_pipe_image(obj/structure/pipes/P)",
+        "file_location": "./code\\_onclick\\ventcrawl.dm",
+        "line_number": 129,
+        "arguments": [
+            "obj/structure/pipes/P"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "attack_alien",
+        "full_path": "/atom/proc/attack_alien(mob/user as mob)",
+        "file_location": "./code\\_onclick\\xeno.dm",
+        "line_number": 99,
+        "arguments": [
+            "mob/user as mob"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "attack_larva",
+        "full_path": "/atom/proc/attack_larva(mob/living/carbon/xenomorph/larva/user)",
+        "file_location": "./code\\_onclick\\xeno.dm",
+        "line_number": 135,
+        "arguments": [
+            "mob/living/carbon/xenomorph/larva/user"
+        ],
+        "comment": "Larva attack, will default to attack_alien behaviour unless overriden"
+    },
+    {
+        "proc_name": "draw_alien_nightvision",
+        "full_path": "/datum/hud/proc/draw_alien_nightvision(datum/custom_hud/alien/ui_alien_datum)",
+        "file_location": "./code\\_onclick\\hud\\alien.dm",
+        "line_number": 26,
+        "arguments": [
+            "datum/custom_hud/alien/ui_alien_datum"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "draw_alien_plasma_display",
+        "full_path": "/datum/hud/proc/draw_alien_plasma_display(datum/custom_hud/alien/ui_alien_datum)",
+        "file_location": "./code\\_onclick\\hud\\alien.dm",
+        "line_number": 33,
+        "arguments": [
+            "datum/custom_hud/alien/ui_alien_datum"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "draw_alien_armor_display",
+        "full_path": "/datum/hud/proc/draw_alien_armor_display(datum/custom_hud/alien/ui_alien_datum)",
+        "file_location": "./code\\_onclick\\hud\\alien.dm",
+        "line_number": 41,
+        "arguments": [
+            "datum/custom_hud/alien/ui_alien_datum"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "draw_alien_locate_queen",
+        "full_path": "/datum/hud/proc/draw_alien_locate_queen(datum/custom_hud/alien/ui_alien_datum)",
+        "file_location": "./code\\_onclick\\hud\\alien.dm",
+        "line_number": 49,
+        "arguments": [
+            "datum/custom_hud/alien/ui_alien_datum"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "draw_alien_locate_mark",
+        "full_path": "/datum/hud/proc/draw_alien_locate_mark(datum/custom_hud/alien/ui_alien_datum)",
+        "file_location": "./code\\_onclick\\hud\\alien.dm",
+        "line_number": 55,
+        "arguments": [
+            "datum/custom_hud/alien/ui_alien_datum"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "overlay_fullscreen",
+        "full_path": "/mob/proc/overlay_fullscreen(category, type, severity)",
+        "file_location": "./code\\_onclick\\hud\\fullscreen.dm",
+        "line_number": 6,
+        "arguments": [
+            "category",
+            "type",
+            "severity"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "clear_fullscreen",
+        "full_path": "/mob/proc/clear_fullscreen(category, animated = 10)",
+        "file_location": "./code\\_onclick\\hud\\fullscreen.dm",
+        "line_number": 24,
+        "arguments": [
+            "category",
+            "animated = 10"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "clear_fullscreen_after_animate",
+        "full_path": "/mob/proc/clear_fullscreen_after_animate(atom/movable/screen/fullscreen/screen)",
+        "file_location": "./code\\_onclick\\hud\\fullscreen.dm",
+        "line_number": 39,
+        "arguments": [
+            "atom/movable/screen/fullscreen/screen"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "clear_fullscreens",
+        "full_path": "/mob/proc/clear_fullscreens()",
+        "file_location": "./code\\_onclick\\hud\\fullscreen.dm",
+        "line_number": 44,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "hide_fullscreens",
+        "full_path": "/mob/proc/hide_fullscreens()",
+        "file_location": "./code\\_onclick\\hud\\fullscreen.dm",
+        "line_number": 48,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "reload_fullscreens",
+        "full_path": "/mob/proc/reload_fullscreens()",
+        "file_location": "./code\\_onclick\\hud\\fullscreen.dm",
+        "line_number": 53,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "update_for_view",
+        "full_path": "/atom/movable/screen/fullscreen/proc/update_for_view(client_view)",
+        "file_location": "./code\\_onclick\\hud\\fullscreen.dm",
+        "line_number": 76,
+        "arguments": [
+            "client_view"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "should_show_to",
+        "full_path": "/atom/movable/screen/fullscreen/proc/should_show_to(mob/mymob)",
+        "file_location": "./code\\_onclick\\hud\\fullscreen.dm",
+        "line_number": 82,
+        "arguments": [
+            "mob/mymob"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "create_hud",
+        "full_path": "/mob/proc/create_hud()",
+        "file_location": "./code\\_onclick\\hud\\hud.dm",
+        "line_number": 164,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "show_hud",
+        "full_path": "/datum/hud/proc/show_hud(version = 0, mob/viewmob)",
+        "file_location": "./code\\_onclick\\hud\\hud.dm",
+        "line_number": 170,
+        "arguments": [
+            "version = 0",
+            "mob/viewmob"
+        ],
+        "comment": "Version denotes which style should be displayed. blank or 0 means \"next version\""
+    },
+    {
+        "proc_name": "plane_masters_update",
+        "full_path": "/datum/hud/proc/plane_masters_update()",
+        "file_location": "./code\\_onclick\\hud\\hud.dm",
+        "line_number": 245,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "hidden_inventory_update",
+        "full_path": "/datum/hud/proc/hidden_inventory_update()",
+        "file_location": "./code\\_onclick\\hud\\hud.dm",
+        "line_number": 261,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "persistent_inventory_update",
+        "full_path": "/datum/hud/proc/persistent_inventory_update()",
+        "file_location": "./code\\_onclick\\hud\\hud.dm",
+        "line_number": 264,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "draw_act_intent",
+        "full_path": "/datum/hud/proc/draw_act_intent(datum/custom_hud/ui_datum, ui_alpha)",
+        "file_location": "./code\\_onclick\\hud\\hud.dm",
+        "line_number": 279,
+        "arguments": [
+            "datum/custom_hud/ui_datum",
+            "ui_alpha"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "draw_mov_intent",
+        "full_path": "/datum/hud/proc/draw_mov_intent(datum/custom_hud/ui_datum, ui_alpha, ui_color)",
+        "file_location": "./code\\_onclick\\hud\\hud.dm",
+        "line_number": 289,
+        "arguments": [
+            "datum/custom_hud/ui_datum",
+            "ui_alpha",
+            "ui_color"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "draw_drop",
+        "full_path": "/datum/hud/proc/draw_drop(datum/custom_hud/ui_datum, ui_alpha, ui_color)",
+        "file_location": "./code\\_onclick\\hud\\hud.dm",
+        "line_number": 301,
+        "arguments": [
+            "datum/custom_hud/ui_datum",
+            "ui_alpha",
+            "ui_color"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "draw_throw",
+        "full_path": "/datum/hud/proc/draw_throw(datum/custom_hud/ui_datum, ui_alpha, ui_color)",
+        "file_location": "./code\\_onclick\\hud\\hud.dm",
+        "line_number": 311,
+        "arguments": [
+            "datum/custom_hud/ui_datum",
+            "ui_alpha",
+            "ui_color"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "draw_pull",
+        "full_path": "/datum/hud/proc/draw_pull(datum/custom_hud/ui_datum)",
+        "file_location": "./code\\_onclick\\hud\\hud.dm",
+        "line_number": 321,
+        "arguments": [
+            "datum/custom_hud/ui_datum"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "draw_resist",
+        "full_path": "/datum/hud/proc/draw_resist(datum/custom_hud/ui_datum, ui_alpha, ui_color)",
+        "file_location": "./code\\_onclick\\hud\\hud.dm",
+        "line_number": 328,
+        "arguments": [
+            "datum/custom_hud/ui_datum",
+            "ui_alpha",
+            "ui_color"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "draw_left_hand",
+        "full_path": "/datum/hud/proc/draw_left_hand(datum/custom_hud/ui_datum, ui_alpha, ui_color)",
+        "file_location": "./code\\_onclick\\hud\\hud.dm",
+        "line_number": 338,
+        "arguments": [
+            "datum/custom_hud/ui_datum",
+            "ui_alpha",
+            "ui_color"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "draw_right_hand",
+        "full_path": "/datum/hud/proc/draw_right_hand(datum/custom_hud/ui_datum, ui_alpha, ui_color)",
+        "file_location": "./code\\_onclick\\hud\\hud.dm",
+        "line_number": 356,
+        "arguments": [
+            "datum/custom_hud/ui_datum",
+            "ui_alpha",
+            "ui_color"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "draw_swaphand",
+        "full_path": "/datum/hud/proc/draw_swaphand(handswap_part, handswap_part_loc, datum/custom_hud/ui_datum, ui_alpha, ui_color)",
+        "file_location": "./code\\_onclick\\hud\\hud.dm",
+        "line_number": 374,
+        "arguments": [
+            "handswap_part",
+            "handswap_part_loc",
+            "datum/custom_hud/ui_datum",
+            "ui_alpha",
+            "ui_color"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "draw_healths",
+        "full_path": "/datum/hud/proc/draw_healths(datum/custom_hud/ui_datum, ui_alpha)",
+        "file_location": "./code\\_onclick\\hud\\hud.dm",
+        "line_number": 387,
+        "arguments": [
+            "datum/custom_hud/ui_datum",
+            "ui_alpha"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "draw_zone_sel",
+        "full_path": "/datum/hud/proc/draw_zone_sel(datum/custom_hud/ui_datum, ui_alpha, ui_color)",
+        "file_location": "./code\\_onclick\\hud\\hud.dm",
+        "line_number": 393,
+        "arguments": [
+            "datum/custom_hud/ui_datum",
+            "ui_alpha",
+            "ui_color"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "draw_inventory_slots",
+        "full_path": "/datum/hud/human/proc/draw_inventory_slots(gear, datum/custom_hud/ui_datum, ui_alpha, ui_color)",
+        "file_location": "./code\\_onclick\\hud\\human.dm",
+        "line_number": 227,
+        "arguments": [
+            "gear",
+            "datum/custom_hud/ui_datum",
+            "ui_alpha",
+            "ui_color"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "draw_toggle_inv",
+        "full_path": "/datum/hud/human/proc/draw_toggle_inv(datum/custom_hud/ui_datum, ui_alpha, ui_color)",
+        "file_location": "./code\\_onclick\\hud\\human.dm",
+        "line_number": 249,
+        "arguments": [
+            "datum/custom_hud/ui_datum",
+            "ui_alpha",
+            "ui_color"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "draw_hand_equip",
+        "full_path": "/datum/hud/human/proc/draw_hand_equip(datum/custom_hud/ui_datum, ui_alpha, ui_color)",
+        "file_location": "./code\\_onclick\\hud\\human.dm",
+        "line_number": 259,
+        "arguments": [
+            "datum/custom_hud/ui_datum",
+            "ui_alpha",
+            "ui_color"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "draw_oxygen",
+        "full_path": "/datum/hud/human/proc/draw_oxygen(datum/custom_hud/ui_datum)",
+        "file_location": "./code\\_onclick\\hud\\human.dm",
+        "line_number": 273,
+        "arguments": [
+            "datum/custom_hud/ui_datum"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "draw_bodytemp",
+        "full_path": "/datum/hud/human/proc/draw_bodytemp(datum/custom_hud/ui_datum)",
+        "file_location": "./code\\_onclick\\hud\\human.dm",
+        "line_number": 279,
+        "arguments": [
+            "datum/custom_hud/ui_datum"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "draw_nutrition",
+        "full_path": "/datum/hud/human/proc/draw_nutrition(datum/custom_hud/ui_datum)",
+        "file_location": "./code\\_onclick\\hud\\human.dm",
+        "line_number": 285,
+        "arguments": [
+            "datum/custom_hud/ui_datum"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "draw_locator_spot",
+        "full_path": "/datum/hud/human/proc/draw_locator_spot(datum/custom_hud/ui_datum)",
+        "file_location": "./code\\_onclick\\hud\\human.dm",
+        "line_number": 293,
+        "arguments": [
+            "datum/custom_hud/ui_datum"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "draw_gun_related",
+        "full_path": "/datum/hud/human/proc/draw_gun_related(datum/custom_hud/ui_datum, ui_alpha)",
+        "file_location": "./code\\_onclick\\hud\\human.dm",
+        "line_number": 299,
+        "arguments": [
+            "datum/custom_hud/ui_datum",
+            "ui_alpha"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "draw_status_effects",
+        "full_path": "/datum/hud/human/proc/draw_status_effects(datum/custom_hud/ui_datum)",
+        "file_location": "./code\\_onclick\\hud\\human.dm",
+        "line_number": 335,
+        "arguments": [
+            "datum/custom_hud/ui_datum"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "update_icon",
+        "full_path": "/atom/movable/screen/proc/update_icon()",
+        "file_location": "./code\\_onclick\\hud\\map_popups.dm",
+        "line_number": 71,
+        "arguments": [],
+        "comment": "/le awesome parent type"
+    },
+    {
+        "proc_name": "set_position",
+        "full_path": "/atom/movable/screen/proc/set_position(x, y, px = 0, py = 0)",
+        "file_location": "./code\\_onclick\\hud\\map_popups.dm",
+        "line_number": 80,
+        "arguments": [
+            "x",
+            "y",
+            "px = 0",
+            "py = 0"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "fill_rect",
+        "full_path": "/atom/movable/screen/proc/fill_rect(x1, y1, x2, y2)",
+        "file_location": "./code\\_onclick\\hud\\map_popups.dm",
+        "line_number": 91,
+        "arguments": [
+            "x1",
+            "y1",
+            "x2",
+            "y2"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "register_map_obj",
+        "full_path": "/client/proc/register_map_obj(atom/movable/screen/screen_obj)",
+        "file_location": "./code\\_onclick\\hud\\map_popups.dm",
+        "line_number": 101,
+        "arguments": [
+            "atom/movable/screen/screen_obj"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "clear_map",
+        "full_path": "/client/proc/clear_map(map_name)",
+        "file_location": "./code\\_onclick\\hud\\map_popups.dm",
+        "line_number": 120,
+        "arguments": [
+            "map_name"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "clear_all_maps",
+        "full_path": "/client/proc/clear_all_maps()",
+        "file_location": "./code\\_onclick\\hud\\map_popups.dm",
+        "line_number": 132,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "create_popup",
+        "full_path": "/client/proc/create_popup(name, ratiox = 100, ratioy = 100)",
+        "file_location": "./code\\_onclick\\hud\\map_popups.dm",
+        "line_number": 144,
+        "arguments": [
+            "name",
+            "ratiox = 100",
+            "ratioy = 100"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "close_popup",
+        "full_path": "/client/proc/close_popup(popup)",
+        "file_location": "./code\\_onclick\\hud\\map_popups.dm",
+        "line_number": 189,
+        "arguments": [
+            "popup"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "check_screen_border",
+        "full_path": "/datum/radial_menu/proc/check_screen_border(mob/user)",
+        "file_location": "./code\\_onclick\\hud\\radial.dm",
+        "line_number": 105,
+        "arguments": [
+            "mob/user"
+        ],
+        "comment": "If we swap to vis_contens inventory these will need a redo"
+    },
+    {
+        "proc_name": "restrict_to_dir",
+        "full_path": "/datum/radial_menu/proc/restrict_to_dir(dir)",
+        "file_location": "./code\\_onclick\\hud\\radial.dm",
+        "line_number": 118,
+        "arguments": [
+            "dir"
+        ],
+        "comment": "These assume 45 deg min_angle"
+    },
+    {
+        "proc_name": "setup_menu",
+        "full_path": "/datum/radial_menu/proc/setup_menu(use_tooltips)",
+        "file_location": "./code\\_onclick\\hud\\radial.dm",
+        "line_number": 133,
+        "arguments": [
+            "use_tooltips"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "update_screen_objects",
+        "full_path": "/datum/radial_menu/proc/update_screen_objects(anim = FALSE)",
+        "file_location": "./code\\_onclick\\hud\\radial.dm",
+        "line_number": 172,
+        "arguments": [
+            "anim = FALSE"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "HideElement",
+        "full_path": "/datum/radial_menu/proc/HideElement(atom/movable/screen/radial/slice/E)",
+        "file_location": "./code\\_onclick\\hud\\radial.dm",
+        "line_number": 183,
+        "arguments": [
+            "atom/movable/screen/radial/slice/E"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "SetElement",
+        "full_path": "/datum/radial_menu/proc/SetElement(atom/movable/screen/radial/slice/E,choice_id,angle,anim,anim_order)",
+        "file_location": "./code\\_onclick\\hud\\radial.dm",
+        "line_number": 192,
+        "arguments": [
+            "atom/movable/screen/radial/slice/E",
+            "choice_id",
+            "angle",
+            "anim",
+            "anim_order"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "Reset",
+        "full_path": "/datum/radial_menu/proc/Reset()",
+        "file_location": "./code\\_onclick\\hud\\radial.dm",
+        "line_number": 233,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "element_chosen",
+        "full_path": "/datum/radial_menu/proc/element_chosen(choice_id,mob/user)",
+        "file_location": "./code\\_onclick\\hud\\radial.dm",
+        "line_number": 239,
+        "arguments": [
+            "choice_id",
+            "mob/user"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "get_next_id",
+        "full_path": "/datum/radial_menu/proc/get_next_id()",
+        "file_location": "./code\\_onclick\\hud\\radial.dm",
+        "line_number": 242,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "set_choices",
+        "full_path": "/datum/radial_menu/proc/set_choices(list/new_choices, use_tooltips, use_labels)",
+        "file_location": "./code\\_onclick\\hud\\radial.dm",
+        "line_number": 245,
+        "arguments": [
+            "list/new_choices",
+            "use_tooltips",
+            "use_labels"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "extract_image",
+        "full_path": "/datum/radial_menu/proc/extract_image(image/E, label, use_labels)",
+        "file_location": "./code\\_onclick\\hud\\radial.dm",
+        "line_number": 259,
+        "arguments": [
+            "image/E",
+            "label",
+            "use_labels"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "next_page",
+        "full_path": "/datum/radial_menu/proc/next_page()",
+        "file_location": "./code\\_onclick\\hud\\radial.dm",
+        "line_number": 274,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "show_to",
+        "full_path": "/datum/radial_menu/proc/show_to(mob/M)",
+        "file_location": "./code\\_onclick\\hud\\radial.dm",
+        "line_number": 279,
+        "arguments": [
+            "mob/M"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "hide",
+        "full_path": "/datum/radial_menu/proc/hide()",
+        "file_location": "./code\\_onclick\\hud\\radial.dm",
+        "line_number": 292,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "wait",
+        "full_path": "/datum/radial_menu/proc/wait(atom/user, atom/anchor, require_near = FALSE)",
+        "file_location": "./code\\_onclick\\hud\\radial.dm",
+        "line_number": 296,
+        "arguments": [
+            "atom/user",
+            "atom/anchor",
+            "require_near = FALSE"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "show_radial_menu",
+        "full_path": "proc/show_radial_menu(mob/user, atom/anchor, list/choices, uniqueid, radius, datum/callback/custom_check, require_near = FALSE, tooltips = FALSE, use_labels = TRUE)",
+        "file_location": "./code\\_onclick\\hud\\radial.dm",
+        "line_number": 312,
+        "arguments": [
+            "mob/user",
+            "atom/anchor",
+            "list/choices",
+            "uniqueid",
+            "radius",
+            "datum/callback/custom_check",
+            "require_near = FALSE",
+            "tooltips = FALSE",
+            "use_labels = TRUE"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "change_choices",
+        "full_path": "/datum/radial_menu/persistent/proc/change_choices(list/newchoices, tooltips)",
+        "file_location": "./code\\_onclick\\hud\\radial_persistent.dm",
+        "line_number": 36,
+        "arguments": [
+            "list/newchoices",
+            "tooltips"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "show_radial_menu_persistent",
+        "full_path": "proc/show_radial_menu_persistent(mob/user, atom/anchor, list/choices, datum/callback/select_proc, uniqueid, radius, tooltips = FALSE)",
+        "file_location": "./code\\_onclick\\hud\\radial_persistent.dm",
+        "line_number": 56,
+        "arguments": [
+            "mob/user",
+            "atom/anchor",
+            "list/choices",
+            "datum/callback/select_proc",
+            "uniqueid",
+            "radius",
+            "tooltips = FALSE"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "get_button_screen_loc",
+        "full_path": "/atom/movable/screen/action_button/proc/get_button_screen_loc(button_number)",
+        "file_location": "./code\\_onclick\\hud\\screen_objects.dm",
+        "line_number": 69,
+        "arguments": [
+            "button_number"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "set_maptext",
+        "full_path": "/atom/movable/screen/action_button/proc/set_maptext(new_maptext, new_maptext_x, new_maptext_y)",
+        "file_location": "./code\\_onclick\\hud\\screen_objects.dm",
+        "line_number": 78,
+        "arguments": [
+            "new_maptext",
+            "new_maptext_x",
+            "new_maptext_y"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "update_fullness",
+        "full_path": "/atom/movable/screen/storage/proc/update_fullness(obj/item/storage/master_storage)",
+        "file_location": "./code\\_onclick\\hud\\screen_objects.dm",
+        "line_number": 113,
+        "arguments": [
+            "obj/item/storage/master_storage"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "set_movement_intent",
+        "full_path": "/mob/living/proc/set_movement_intent(new_intent)",
+        "file_location": "./code\\_onclick\\hud\\screen_objects.dm",
+        "line_number": 376,
+        "arguments": [
+            "new_intent"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "toggle_mov_intent",
+        "full_path": "/mob/living/proc/toggle_mov_intent()",
+        "file_location": "./code\\_onclick\\hud\\screen_objects.dm",
+        "line_number": 382,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "set_movement_intent_icon",
+        "full_path": "/atom/movable/screen/mov_intent/proc/set_movement_intent_icon(new_intent)",
+        "file_location": "./code\\_onclick\\hud\\screen_objects.dm",
+        "line_number": 394,
+        "arguments": [
+            "new_intent"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "give_screen_object",
+        "full_path": "/datum/screen_object_holder/proc/give_screen_object(atom/screen_object)",
+        "file_location": "./code\\_onclick\\hud\\screen_object_holder.dm",
+        "line_number": 23,
+        "arguments": [
+            "atom/screen_object"
+        ],
+        "comment": "/ Gives the screen object to the client, qdel'ing it when it's cleared"
+    },
+    {
+        "proc_name": "give_protected_screen_object",
+        "full_path": "/datum/screen_object_holder/proc/give_protected_screen_object(atom/screen_object)",
+        "file_location": "./code\\_onclick\\hud\\screen_object_holder.dm",
+        "line_number": 30,
+        "arguments": [
+            "atom/screen_object"
+        ],
+        "comment": "/ Gives the screen object to the client, but does not qdel it when it's cleared"
+    },
+    {
+        "proc_name": "remove_screen_object",
+        "full_path": "/datum/screen_object_holder/proc/remove_screen_object(atom/screen_object)",
+        "file_location": "./code\\_onclick\\hud\\screen_object_holder.dm",
+        "line_number": 36,
+        "arguments": [
+            "atom/screen_object"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "clear",
+        "full_path": "/datum/screen_object_holder/proc/clear()",
+        "file_location": "./code\\_onclick\\hud\\screen_object_holder.dm",
+        "line_number": 44,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "on_parent_qdel",
+        "full_path": "/datum/screen_object_holder/proc/on_parent_qdel()",
+        "file_location": "./code\\_onclick\\hud\\screen_object_holder.dm",
+        "line_number": 54,
+        "arguments": [],
+        "comment": "hard del because they aren't watching for the client, that's our job."
+    },
+    {
+        "proc_name": "Show",
+        "full_path": "/atom/movable/screen/plane_master/proc/Show(override)",
+        "file_location": "./code\\_onclick\\hud\\rendering\\plane_master.dm",
+        "line_number": 20,
+        "arguments": [
+            "override"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "Hide",
+        "full_path": "/atom/movable/screen/plane_master/proc/Hide(override)",
+        "file_location": "./code\\_onclick\\hud\\rendering\\plane_master.dm",
+        "line_number": 23,
+        "arguments": [
+            "override"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "backdrop",
+        "full_path": "/atom/movable/screen/plane_master/proc/backdrop(mob/mymob)",
+        "file_location": "./code\\_onclick\\hud\\rendering\\plane_master.dm",
+        "line_number": 28,
+        "arguments": [
+            "mob/mymob"
+        ],
+        "comment": "Trust me, you need one. Period. If you don't think you do, you're doing something extremely wrong."
+    },
+    {
+        "proc_name": "get_filters",
+        "full_path": "/atom/movable/plane_master_controller/proc/get_filters(name)",
+        "file_location": "./code\\_onclick\\hud\\rendering\\plane_master_controller.dm",
+        "line_number": 47,
+        "arguments": [
+            "name"
+        ],
+        "comment": "/Gets all filters for this controllers plane masters"
+    },
+    {
+        "proc_name": "relay_render_to_plane",
+        "full_path": "/atom/movable/screen/plane_master/proc/relay_render_to_plane(mob/mymob, relay_plane)",
+        "file_location": "./code\\_onclick\\hud\\rendering\\render_plate.dm",
+        "line_number": 62,
+        "arguments": [
+            "mob/mymob",
+            "relay_plane"
+        ],
+        "comment": null
+    }
+]

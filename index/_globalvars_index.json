@@ -1,0 +1,235 @@
+[
+    {
+        "proc_name": "generate_bitfields",
+        "full_path": "proc/generate_bitfields()",
+        "file_location": "./code\\_globalvars\\bitfields.dm",
+        "line_number": 12,
+        "arguments": [],
+        "comment": "/ Turns /datum/bitfield subtypes into a list for use in debugging"
+    },
+    {
+        "proc_name": "initiate_minimap_icons",
+        "full_path": "proc/initiate_minimap_icons()",
+        "file_location": "./code\\_globalvars\\global_lists.dm",
+        "line_number": 35,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "setup_xeno_evolve_times",
+        "full_path": "proc/setup_xeno_evolve_times()",
+        "file_location": "./code\\_globalvars\\global_lists.dm",
+        "line_number": 186,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "cached_params_decode",
+        "full_path": "proc/cached_params_decode(params_data, decode_proc)",
+        "file_location": "./code\\_globalvars\\global_lists.dm",
+        "line_number": 274,
+        "arguments": [
+            "params_data",
+            "decode_proc"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "key_number_decode",
+        "full_path": "proc/key_number_decode(key_number_data)",
+        "file_location": "./code\\_globalvars\\global_lists.dm",
+        "line_number": 280,
+        "arguments": [
+            "key_number_data"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "number_list_decode",
+        "full_path": "proc/number_list_decode(number_list_data)",
+        "file_location": "./code\\_globalvars\\global_lists.dm",
+        "line_number": 286,
+        "arguments": [
+            "number_list_data"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "setup_species",
+        "full_path": "proc/setup_species()",
+        "file_location": "./code\\_globalvars\\global_lists.dm",
+        "line_number": 292,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "setup_ammo",
+        "full_path": "proc/setup_ammo()",
+        "file_location": "./code\\_globalvars\\global_lists.dm",
+        "line_number": 302,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "setup_resin_constructions",
+        "full_path": "proc/setup_resin_constructions()",
+        "file_location": "./code\\_globalvars\\global_lists.dm",
+        "line_number": 310,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "setup_resin_mark_meanings",
+        "full_path": "proc/setup_resin_mark_meanings()",
+        "file_location": "./code\\_globalvars\\global_lists.dm",
+        "line_number": 317,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "setup_gear_path_presets",
+        "full_path": "proc/setup_gear_path_presets()",
+        "file_location": "./code\\_globalvars\\global_lists.dm",
+        "line_number": 324,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "setup_gear_name_presets",
+        "full_path": "proc/setup_gear_name_presets()",
+        "file_location": "./code\\_globalvars\\global_lists.dm",
+        "line_number": 334,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "setup_language_keys",
+        "full_path": "proc/setup_language_keys()",
+        "file_location": "./code\\_globalvars\\global_lists.dm",
+        "line_number": 344,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "setup_surgeries",
+        "full_path": "proc/setup_surgeries()",
+        "file_location": "./code\\_globalvars\\global_lists.dm",
+        "line_number": 354,
+        "arguments": [],
+        "comment": "Comb Sort. This works apparently, so we're keeping it that way"
+    },
+    {
+        "proc_name": "setup_surgeries_by_zone_and_depth",
+        "full_path": "proc/setup_surgeries_by_zone_and_depth()",
+        "file_location": "./code\\_globalvars\\global_lists.dm",
+        "line_number": 375,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "setup_surgical_tools",
+        "full_path": "proc/setup_surgical_tools()",
+        "file_location": "./code\\_globalvars\\global_lists.dm",
+        "line_number": 386,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "setup_surgical_patient_types",
+        "full_path": "proc/setup_surgical_patient_types()",
+        "file_location": "./code\\_globalvars\\global_lists.dm",
+        "line_number": 393,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "setup_custom_event_info",
+        "full_path": "proc/setup_custom_event_info()",
+        "file_location": "./code\\_globalvars\\global_lists.dm",
+        "line_number": 399,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "setup_taskbar_icons",
+        "full_path": "proc/setup_taskbar_icons()",
+        "file_location": "./code\\_globalvars\\global_lists.dm",
+        "line_number": 419,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "setup_all_huds",
+        "full_path": "proc/setup_all_huds()",
+        "file_location": "./code\\_globalvars\\global_lists.dm",
+        "line_number": 426,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "setup_human_huds",
+        "full_path": "proc/setup_human_huds()",
+        "file_location": "./code\\_globalvars\\global_lists.dm",
+        "line_number": 443,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "setup_yautja_capes",
+        "full_path": "proc/setup_yautja_capes()",
+        "file_location": "./code\\_globalvars\\global_lists.dm",
+        "line_number": 449,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "init_global_referenced_datums",
+        "full_path": "proc/init_global_referenced_datums()",
+        "file_location": "./code\\_globalvars\\global_lists.dm",
+        "line_number": 493,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "init_emote_list",
+        "full_path": "proc/init_emote_list()",
+        "file_location": "./code\\_globalvars\\global_lists.dm",
+        "line_number": 497,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "setup_offset",
+        "full_path": "proc/setup_offset()",
+        "file_location": "./code\\_globalvars\\misc.dm",
+        "line_number": 28,
+        "arguments": [],
+        "comment": "/ Sets the offset 2 lines above."
+    },
+    {
+        "proc_name": "init_keybindings",
+        "full_path": "proc/init_keybindings()",
+        "file_location": "./code\\_globalvars\\lists\\keybindings.dm",
+        "line_number": 2,
+        "arguments": [],
+        "comment": "/ Creates and sorts all the keybinding datums"
+    },
+    {
+        "proc_name": "add_keybinding",
+        "full_path": "proc/add_keybinding(datum/keybinding/instance)",
+        "file_location": "./code\\_globalvars\\lists\\keybindings.dm",
+        "line_number": 11,
+        "arguments": [
+            "datum/keybinding/instance"
+        ],
+        "comment": "/ Adds an instanced keybinding to the global tracker"
+    },
+    {
+        "proc_name": "init_emote_keybinds",
+        "full_path": "proc/init_emote_keybinds()",
+        "file_location": "./code\\_globalvars\\lists\\keybindings.dm",
+        "line_number": 25,
+        "arguments": [],
+        "comment": null
+    }
+]

@@ -1,0 +1,730 @@
+[
+    {
+        "proc_name": "Admin_Coordinates_Readable",
+        "full_path": "/atom/proc/Admin_Coordinates_Readable(area_name, admin_jump_ref)",
+        "file_location": "./code\\__DEFINES\\admin.dm",
+        "line_number": 54,
+        "arguments": [
+            "area_name",
+            "admin_jump_ref"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "slotdefine2slotbit",
+        "full_path": "proc/slotdefine2slotbit(slotdefine)",
+        "file_location": "./code\\__DEFINES\\equipment.dm",
+        "line_number": 310,
+        "arguments": [
+            "slotdefine"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "get_flags_heat_protection",
+        "full_path": "proc/get_flags_heat_protection()",
+        "file_location": "./code\\__DEFINES\\equipment.dm",
+        "line_number": 404,
+        "arguments": [],
+        "comment": "bitflags for the percentual amount of protection a piece of clothing which covers the body part offers."
+    },
+    {
+        "proc_name": "initialize_global_regex",
+        "full_path": "proc/initialize_global_regex()",
+        "file_location": "./code\\__DEFINES\\regex.dm",
+        "line_number": 27,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "TgsNew",
+        "full_path": "/world/proc/TgsNew(datum/tgs_event_handler/event_handler, minimum_required_security_level = TGS_SECURITY_ULTRASAFE)",
+        "file_location": "./code\\__DEFINES\\tgs.dm",
+        "line_number": 140,
+        "arguments": [
+            "datum/tgs_event_handler/event_handler",
+            "minimum_required_security_level = TGS_SECURITY_ULTRASAFE"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "TgsInitializationComplete",
+        "full_path": "/world/proc/TgsInitializationComplete()",
+        "file_location": "./code\\__DEFINES\\tgs.dm",
+        "line_number": 150,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "TgsReboot",
+        "full_path": "/world/proc/TgsReboot()",
+        "file_location": "./code\\__DEFINES\\tgs.dm",
+        "line_number": 159,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "Wildcard",
+        "full_path": "/datum/tgs_version/proc/Wildcard()",
+        "file_location": "./code\\__DEFINES\\tgs.dm",
+        "line_number": 196,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "Equals",
+        "full_path": "/datum/tgs_version/proc/Equals(datum/tgs_version/other_version)",
+        "file_location": "./code\\__DEFINES\\tgs.dm",
+        "line_number": 204,
+        "arguments": [
+            "datum/tgs_version/other_version"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "HandleEvent",
+        "full_path": "/datum/tgs_event_handler/proc/HandleEvent(event_code, ...)",
+        "file_location": "./code\\__DEFINES\\tgs.dm",
+        "line_number": 262,
+        "arguments": [
+            "event_code",
+            "..."
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "Run",
+        "full_path": "/datum/tgs_chat_command/proc/Run(datum/tgs_chat_user/sender, params)",
+        "file_location": "./code\\__DEFINES\\tgs.dm",
+        "line_number": 283,
+        "arguments": [
+            "datum/tgs_chat_user/sender",
+            "params"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "TgsMaximumApiVersion",
+        "full_path": "/world/proc/TgsMaximumApiVersion()",
+        "file_location": "./code\\__DEFINES\\tgs.dm",
+        "line_number": 390,
+        "arguments": [],
+        "comment": "/ Returns the maximum supported [/datum/tgs_version] of the DMAPI."
+    },
+    {
+        "proc_name": "TgsMinimumApiVersion",
+        "full_path": "/world/proc/TgsMinimumApiVersion()",
+        "file_location": "./code\\__DEFINES\\tgs.dm",
+        "line_number": 394,
+        "arguments": [],
+        "comment": "/ Returns the minimum supported [/datum/tgs_version] of the DMAPI."
+    },
+    {
+        "proc_name": "TgsAvailable",
+        "full_path": "/world/proc/TgsAvailable()",
+        "file_location": "./code\\__DEFINES\\tgs.dm",
+        "line_number": 400,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "TgsEndProcess",
+        "full_path": "/world/proc/TgsEndProcess()",
+        "file_location": "./code\\__DEFINES\\tgs.dm",
+        "line_number": 411,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "TgsTargetedChatBroadcast",
+        "full_path": "/world/proc/TgsTargetedChatBroadcast(datum/tgs_message_content/message, admin_only = FALSE)",
+        "file_location": "./code\\__DEFINES\\tgs.dm",
+        "line_number": 420,
+        "arguments": [
+            "datum/tgs_message_content/message",
+            "admin_only = FALSE"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "TgsChatPrivateMessage",
+        "full_path": "/world/proc/TgsChatPrivateMessage(datum/tgs_message_content/message, datum/tgs_chat_user/user)",
+        "file_location": "./code\\__DEFINES\\tgs.dm",
+        "line_number": 429,
+        "arguments": [
+            "datum/tgs_message_content/message",
+            "datum/tgs_chat_user/user"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "TgsChatBroadcast",
+        "full_path": "/world/proc/TgsChatBroadcast(datum/tgs_message_content/message, list/channels = null)",
+        "file_location": "./code\\__DEFINES\\tgs.dm",
+        "line_number": 438,
+        "arguments": [
+            "datum/tgs_message_content/message",
+            "list/channels = null"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "TgsVersion",
+        "full_path": "/world/proc/TgsVersion()",
+        "file_location": "./code\\__DEFINES\\tgs.dm",
+        "line_number": 442,
+        "arguments": [],
+        "comment": "/ Returns the current [/datum/tgs_version] of TGS if it is running the server, null otherwise. This function may sleep if the call to [/world/proc/TgsNew] is sleeping!"
+    },
+    {
+        "proc_name": "TgsApiVersion",
+        "full_path": "/world/proc/TgsApiVersion()",
+        "file_location": "./code\\__DEFINES\\tgs.dm",
+        "line_number": 446,
+        "arguments": [],
+        "comment": "/ Returns the current [/datum/tgs_version] of the DMAPI being used if it was activated, null otherwise. This function may sleep if the call to [/world/proc/TgsNew] is sleeping!"
+    },
+    {
+        "proc_name": "TgsInstanceName",
+        "full_path": "/world/proc/TgsInstanceName()",
+        "file_location": "./code\\__DEFINES\\tgs.dm",
+        "line_number": 450,
+        "arguments": [],
+        "comment": "/ Returns the name of the TGS instance running the game if TGS is present, null otherwise. This function may sleep if the call to [/world/proc/TgsNew] is sleeping!"
+    },
+    {
+        "proc_name": "TgsRevision",
+        "full_path": "/world/proc/TgsRevision()",
+        "file_location": "./code\\__DEFINES\\tgs.dm",
+        "line_number": 454,
+        "arguments": [],
+        "comment": "/ Return the current [/datum/tgs_revision_information] of the running server if TGS is present, null otherwise. This function may sleep if the call to [/world/proc/TgsNew] is sleeping!"
+    },
+    {
+        "proc_name": "TgsSecurityLevel",
+        "full_path": "/world/proc/TgsSecurityLevel()",
+        "file_location": "./code\\__DEFINES\\tgs.dm",
+        "line_number": 458,
+        "arguments": [],
+        "comment": "/ Returns the current BYOND security level as a TGS_SECURITY_ define if TGS is present, null otherwise. This function may sleep if the call to [/world/proc/TgsNew] is sleeping!"
+    },
+    {
+        "proc_name": "TgsTestMerges",
+        "full_path": "/world/proc/TgsTestMerges()",
+        "file_location": "./code\\__DEFINES\\tgs.dm",
+        "line_number": 462,
+        "arguments": [],
+        "comment": "/ Returns a list of active [/datum/tgs_revision_information/test_merge]s if TGS is present, null otherwise. This function may sleep if the call to [/world/proc/TgsNew] is sleeping!"
+    },
+    {
+        "proc_name": "TgsChatChannelInfo",
+        "full_path": "/world/proc/TgsChatChannelInfo()",
+        "file_location": "./code\\__DEFINES\\tgs.dm",
+        "line_number": 466,
+        "arguments": [],
+        "comment": "/ Returns a list of connected [/datum/tgs_chat_channel]s if TGS is present, null otherwise. This function may sleep if the call to [/world/proc/TgsNew] is sleeping!"
+    },
+    {
+        "proc_name": "generate_trait_name_map",
+        "full_path": "proc/generate_trait_name_map()",
+        "file_location": "./code\\__DEFINES\\traits.dm",
+        "line_number": 310,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "get_accurate_dist",
+        "full_path": "proc/get_accurate_dist(turf/A, turf/B)",
+        "file_location": "./code\\__DEFINES\\__game.dm",
+        "line_number": 505,
+        "arguments": [
+            "turf/A",
+            "turf/B"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "__detect_rust_g",
+        "full_path": "proc/__detect_rust_g()",
+        "file_location": "./code\\__DEFINES\\__rust_g.dm",
+        "line_number": 21,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "rustg_log_close_all",
+        "full_path": "proc/rustg_log_close_all()",
+        "file_location": "./code\\__DEFINES\\__rust_g.dm",
+        "line_number": 100,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "rustg_redis_disconnect",
+        "full_path": "proc/rustg_redis_disconnect()",
+        "file_location": "./code\\__DEFINES\\__rust_g.dm",
+        "line_number": 107,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "rustg_redis_get_messages",
+        "full_path": "proc/rustg_redis_get_messages()",
+        "file_location": "./code\\__DEFINES\\__rust_g.dm",
+        "line_number": 109,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "rustg_unix_timestamp",
+        "full_path": "proc/rustg_unix_timestamp()",
+        "file_location": "./code\\__DEFINES\\__rust_g.dm",
+        "line_number": 123,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "rustg_read_toml_file",
+        "full_path": "proc/rustg_read_toml_file(path)",
+        "file_location": "./code\\__DEFINES\\__rust_g.dm",
+        "line_number": 128,
+        "arguments": [
+            "path"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "rustg_toml_encode",
+        "full_path": "proc/rustg_toml_encode(value)",
+        "file_location": "./code\\__DEFINES\\__rust_g.dm",
+        "line_number": 137,
+        "arguments": [
+            "value"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "auxtools_stack_trace",
+        "full_path": "proc/auxtools_stack_trace(msg)",
+        "file_location": "./code\\__DEFINES\\__spacemandmm.dm",
+        "line_number": 31,
+        "arguments": [
+            "msg"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "enable_debugging",
+        "full_path": "proc/enable_debugging(mode, port)",
+        "file_location": "./code\\__DEFINES\\__spacemandmm.dm",
+        "line_number": 34,
+        "arguments": [
+            "mode",
+            "port"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "auxtools_expr_stub",
+        "full_path": "proc/auxtools_expr_stub()",
+        "file_location": "./code\\__DEFINES\\__spacemandmm.dm",
+        "line_number": 37,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "cmd_admin_pm",
+        "full_path": "/client/proc/cmd_admin_pm()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\signals_admin.dm",
+        "line_number": 1,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "receive_ahelp",
+        "full_path": "/client/proc/receive_ahelp(message)",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\signals_admin.dm",
+        "line_number": 4,
+        "arguments": [
+            "message"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "give_to",
+        "full_path": "/datum/action/proc/give_to()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\signals_datum.dm",
+        "line_number": 29,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "remove_from",
+        "full_path": "/datum/action/proc/remove_from()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\signals_datum.dm",
+        "line_number": 31,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "hide_from",
+        "full_path": "/datum/action/proc/hide_from()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\signals_datum.dm",
+        "line_number": 33,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "unhide_from",
+        "full_path": "/datum/action/proc/unhide_from()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\signals_datum.dm",
+        "line_number": 35,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "initialize_boundary_contents",
+        "full_path": "/datum/nmtask/mapload/proc/initialize_boundary_contents()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\signals_datum.dm",
+        "line_number": 52,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "spawn_candidates",
+        "full_path": "/datum/emergency_call/proc/spawn_candidates()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\signals_datum.dm",
+        "line_number": 62,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "update_living_queens",
+        "full_path": "proc/update_living_queens()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\signals_datum.dm",
+        "line_number": 65,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "add_new_zlevel",
+        "full_path": "/controller/subsystem/mapping/proc/add_new_zlevel()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\signals_global.dm",
+        "line_number": 9,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "add_new_zlevel",
+        "full_path": "/controller/subsystem/mapping/proc/add_new_zlevel()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\signals_global.dm",
+        "line_number": 11,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "tcomms_shutdown",
+        "full_path": "/obj/structure/machinery/telecomms/proc/tcomms_shutdown()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\signals_global.dm",
+        "line_number": 51,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "force_predator_round",
+        "full_path": "/datum/admins/proc/force_predator_round()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\signals_global.dm",
+        "line_number": 54,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "check_ground_humans",
+        "full_path": "/datum/game_mode/colonialmarines/proc/check_ground_humans()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\signals_global.dm",
+        "line_number": 57,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "equipped",
+        "full_path": "/obj/item/proc/equipped()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\atom\\signals_item.dm",
+        "line_number": 18,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "unequipped",
+        "full_path": "/obj/item/proc/unequipped()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\atom\\signals_item.dm",
+        "line_number": 20,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "attack_self",
+        "full_path": "/obj/item/proc/attack_self()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\atom\\signals_item.dm",
+        "line_number": 24,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "do_zoom",
+        "full_path": "/obj/item/proc/do_zoom()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\atom\\signals_item.dm",
+        "line_number": 37,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "unzoom",
+        "full_path": "/obj/item/proc/unzoom()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\atom\\signals_item.dm",
+        "line_number": 39,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "set_glide_size",
+        "full_path": "/atom/movable/proc/set_glide_size()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\atom\\signals_movable.dm",
+        "line_number": 28,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "take_damage",
+        "full_path": "/limb/proc/take_damage()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\atom\\signals_obj.dm",
+        "line_number": 1,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "on_weed_expand",
+        "full_path": "/obj/effect/alien/weeds/proc/on_weed_expand()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\atom\\signals_obj.dm",
+        "line_number": 9,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "afterbuckle",
+        "full_path": "/obj/proc/afterbuckle()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\atom\\signals_obj.dm",
+        "line_number": 30,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "update_canmove",
+        "full_path": "/mob/proc/update_canmove()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\atom\\mob\\signals_mob.dm",
+        "line_number": 38,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "update_canmove",
+        "full_path": "/mob/proc/update_canmove()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\atom\\mob\\signals_mob.dm",
+        "line_number": 40,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "unequipped",
+        "full_path": "/obj/item/proc/unequipped()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\atom\\mob\\signals_mob.dm",
+        "line_number": 44,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "equip_to_slot_if_possible",
+        "full_path": "/mob/proc/equip_to_slot_if_possible()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\atom\\mob\\signals_mob.dm",
+        "line_number": 46,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "set_face_dir",
+        "full_path": "/mob/proc/set_face_dir()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\atom\\mob\\signals_mob.dm",
+        "line_number": 56,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "on_deafness_gain",
+        "full_path": "/mob/proc/on_deafness_gain()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\atom\\mob\\signals_mob.dm",
+        "line_number": 82,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "on_deafness_loss",
+        "full_path": "/mob/proc/on_deafness_loss()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\atom\\mob\\signals_mob.dm",
+        "line_number": 84,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "force_say",
+        "full_path": "/mob/living/carbon/human/proc/force_say()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\atom\\mob\\living\\signals_human.dm",
+        "line_number": 1,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "impregnate",
+        "full_path": "/obj/item/clothing/mask/facehugger/proc/impregnate()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\atom\\mob\\living\\signals_human.dm",
+        "line_number": 24,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "equip_to_slot_if_possible",
+        "full_path": "/mob/proc/equip_to_slot_if_possible()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\atom\\mob\\living\\signals_human.dm",
+        "line_number": 55,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "attempt_step",
+        "full_path": "/datum/surgery_step/proc/attempt_step()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\atom\\mob\\living\\signals_human.dm",
+        "line_number": 62,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "get_flags_cold_protection",
+        "full_path": "/mob/living/carbon/human/proc/get_flags_cold_protection()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\atom\\mob\\living\\signals_human.dm",
+        "line_number": 64,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "do_climb",
+        "full_path": "/obj/structure/proc/do_climb(var/mob/living/user, mods)",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\atom\\mob\\living\\signals_living.dm",
+        "line_number": 31,
+        "arguments": [
+            "var/mob/living/user",
+            "mods"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "gain_health",
+        "full_path": "/mob/living/carbon/xenomorph/proc/gain_health()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\atom\\mob\\living\\signals_xeno.dm",
+        "line_number": 25,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "use_ability_wrapper",
+        "full_path": "/datum/action/xeno_action/proc/use_ability_wrapper()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\atom\\mob\\living\\signals_xeno.dm",
+        "line_number": 51,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "check_blood_splash",
+        "full_path": "/mob/living/carbon/xenomorph/proc/check_blood_splash()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\atom\\mob\\living\\signals_xeno.dm",
+        "line_number": 53,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "recalculate_speed",
+        "full_path": "/mob/living/carbon/xenomorph/proc/recalculate_speed()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\atom\\mob\\living\\signals_xeno.dm",
+        "line_number": 55,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "dismount_ovipositor",
+        "full_path": "/mob/living/carbon/xenomorph/queen/proc/dismount_ovipositor()",
+        "file_location": "./code\\__DEFINES\\dcs\\signals\\atom\\mob\\living\\signals_xeno.dm",
+        "line_number": 60,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "can_pry",
+        "full_path": "/obj/item/proc/can_pry()",
+        "file_location": "./code\\__DEFINES\\typecheck\\items.dm",
+        "line_number": 31,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "can_not_harm",
+        "full_path": "/mob/living/carbon/xenomorph/proc/can_not_harm(mob/living/carbon/attempt_harm_mob)",
+        "file_location": "./code\\__DEFINES\\typecheck\\xenos.dm",
+        "line_number": 30,
+        "arguments": [
+            "mob/living/carbon/attempt_harm_mob"
+        ],
+        "comment": "/ Returns true/false based on if the xenomorph can harm the passed carbon mob."
+    },
+    {
+        "proc_name": "set_hive_data",
+        "full_path": "proc/set_hive_data(atom/focused_atom, hivenumber)",
+        "file_location": "./code\\__DEFINES\\typecheck\\xenos.dm",
+        "line_number": 47,
+        "arguments": [
+            "atom/focused_atom",
+            "hivenumber"
+        ],
+        "comment": "need this to set the data for walls/eggs/huggers when they are initialized"
+    },
+    {
+        "proc_name": "get_xeno_stun_duration",
+        "full_path": "proc/get_xeno_stun_duration(mob/stun_mob, duration)",
+        "file_location": "./code\\__DEFINES\\typecheck\\xenos.dm",
+        "line_number": 53,
+        "arguments": [
+            "mob/stun_mob",
+            "duration"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "get_xeno_damage_slash",
+        "full_path": "proc/get_xeno_damage_slash(mob/slash_mob, damage)",
+        "file_location": "./code\\__DEFINES\\typecheck\\xenos.dm",
+        "line_number": 58,
+        "arguments": [
+            "mob/slash_mob",
+            "damage"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "get_xeno_damage_acid",
+        "full_path": "proc/get_xeno_damage_acid(mob/target_mob, damage)",
+        "file_location": "./code\\__DEFINES\\typecheck\\xenos.dm",
+        "line_number": 63,
+        "arguments": [
+            "mob/target_mob",
+            "damage"
+        ],
+        "comment": null
+    }
+]

@@ -1,0 +1,291 @@
+[
+    {
+        "proc_name": "log_and_message_admins",
+        "full_path": "proc/log_and_message_admins(message as text)",
+        "file_location": "./code\\defines\\procs\\admin.dm",
+        "line_number": 1,
+        "arguments": [
+            "message as text"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "xeno_announcement",
+        "full_path": "proc/xeno_announcement(message, hivenumber, title = QUEEN_ANNOUNCE)",
+        "file_location": "./code\\defines\\procs\\announcement.dm",
+        "line_number": 12,
+        "arguments": [
+            "message",
+            "hivenumber",
+            "title = QUEEN_ANNOUNCE"
+        ],
+        "comment": "xenomorph hive announcement"
+    },
+    {
+        "proc_name": "marine_announcement",
+        "full_path": "proc/marine_announcement(message, title = COMMAND_ANNOUNCE, sound_to_play = sound('sound/misc/notice2.ogg')",
+        "file_location": "./code\\defines\\procs\\announcement.dm",
+        "line_number": 33,
+        "arguments": [
+            "message",
+            "title = COMMAND_ANNOUNCE",
+            "sound_to_play = sound('sound/misc/notice2.ogg'"
+        ],
+        "comment": "general marine announcement"
+    },
+    {
+        "proc_name": "yautja_announcement",
+        "full_path": "proc/yautja_announcement(message, title = YAUTJA_ANNOUNCE, sound_to_play = sound('sound/misc/notice1.ogg')",
+        "file_location": "./code\\defines\\procs\\announcement.dm",
+        "line_number": 81,
+        "arguments": [
+            "message",
+            "title = YAUTJA_ANNOUNCE",
+            "sound_to_play = sound('sound/misc/notice1.ogg'"
+        ],
+        "comment": "yautja ship AI announcement"
+    },
+    {
+        "proc_name": "ai_announcement",
+        "full_path": "proc/ai_announcement(message, sound_to_play = sound('sound/misc/interference.ogg')",
+        "file_location": "./code\\defines\\procs\\announcement.dm",
+        "line_number": 93,
+        "arguments": [
+            "message",
+            "sound_to_play = sound('sound/misc/interference.ogg'"
+        ],
+        "comment": "AI announcement that uses talking into comms"
+    },
+    {
+        "proc_name": "ai_silent_announcement",
+        "full_path": "proc/ai_silent_announcement(message, channel_prefix, bypass_cooldown = FALSE)",
+        "file_location": "./code\\defines\\procs\\announcement.dm",
+        "line_number": 109,
+        "arguments": [
+            "message",
+            "channel_prefix",
+            "bypass_cooldown = FALSE"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "detectable_by_ai",
+        "full_path": "/mob/proc/detectable_by_ai()",
+        "file_location": "./code\\defines\\procs\\announcement.dm",
+        "line_number": 118,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "shipwide_ai_announcement",
+        "full_path": "proc/shipwide_ai_announcement(message, title = MAIN_AI_SYSTEM, sound_to_play = sound('sound/misc/interference.ogg')",
+        "file_location": "./code\\defines\\procs\\announcement.dm",
+        "line_number": 128,
+        "arguments": [
+            "message",
+            "title = MAIN_AI_SYSTEM",
+            "sound_to_play = sound('sound/misc/interference.ogg'"
+        ],
+        "comment": "to ensure that all humans on ship hear it regardless of comms and power"
+    },
+    {
+        "proc_name": "all_hands_on_deck",
+        "full_path": "proc/all_hands_on_deck(message, title = MAIN_AI_SYSTEM, sound_to_play = sound('sound/misc/sound_misc_boatswain.ogg')",
+        "file_location": "./code\\defines\\procs\\announcement.dm",
+        "line_number": 145,
+        "arguments": [
+            "message",
+            "title = MAIN_AI_SYSTEM",
+            "sound_to_play = sound('sound/misc/sound_misc_boatswain.ogg'"
+        ],
+        "comment": "Subtype of AI shipside announcement for \"All Hands On Deck\" alerts (COs and SEAs joining the game)"
+    },
+    {
+        "proc_name": "announcement_helper",
+        "full_path": "proc/announcement_helper(message, title, list/targets, sound_to_play)",
+        "file_location": "./code\\defines\\procs\\announcement.dm",
+        "line_number": 160,
+        "arguments": [
+            "message",
+            "title",
+            "list/targets",
+            "sound_to_play"
+        ],
+        "comment": "the announcement proc that handles announcing for each mob in targets list"
+    },
+    {
+        "proc_name": "IsEmpty",
+        "full_path": "/PriorityQueue/proc/IsEmpty()",
+        "file_location": "./code\\defines\\procs\\AStar.dm",
+        "line_number": 48,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "Enqueue",
+        "full_path": "/PriorityQueue/proc/Enqueue(d)",
+        "file_location": "./code\\defines\\procs\\AStar.dm",
+        "line_number": 51,
+        "arguments": [
+            "d"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "Dequeue",
+        "full_path": "/PriorityQueue/proc/Dequeue()",
+        "file_location": "./code\\defines\\procs\\AStar.dm",
+        "line_number": 62,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "Remove",
+        "full_path": "/PriorityQueue/proc/Remove(i)",
+        "file_location": "./code\\defines\\procs\\AStar.dm",
+        "line_number": 67,
+        "arguments": [
+            "i"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "_Fix",
+        "full_path": "/PriorityQueue/proc/_Fix(i)",
+        "file_location": "./code\\defines\\procs\\AStar.dm",
+        "line_number": 74,
+        "arguments": [
+            "i"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "List",
+        "full_path": "/PriorityQueue/proc/List()",
+        "file_location": "./code\\defines\\procs\\AStar.dm",
+        "line_number": 88,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "RemoveItem",
+        "full_path": "/PriorityQueue/proc/RemoveItem(i)",
+        "file_location": "./code\\defines\\procs\\AStar.dm",
+        "line_number": 96,
+        "arguments": [
+            "i"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "PathWeightCompare",
+        "full_path": "proc/PathWeightCompare(PathNode/a, PathNode/b)",
+        "file_location": "./code\\defines\\procs\\AStar.dm",
+        "line_number": 119,
+        "arguments": [
+            "PathNode/a",
+            "PathNode/b"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "AStar",
+        "full_path": "proc/AStar(start,end,adjacent,dist,maxnodes,maxnodedepth = 30,mintargetdist,minnodedist,id=null, turf/exclude=null)",
+        "file_location": "./code\\defines\\procs\\AStar.dm",
+        "line_number": 122,
+        "arguments": [
+            "start",
+            "end",
+            "adjacent",
+            "dist",
+            "maxnodes",
+            "maxnodedepth = 30",
+            "mintargetdist",
+            "minnodedist",
+            "id=null",
+            "turf/exclude=null"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "armor_damage_reduction",
+        "full_path": "proc/armor_damage_reduction(datum/combat_configuration/c_config, damage, armor=0, penetration=0, pen_armor_punch=0, damage_armor_punch=0, armor_integrity = 100)",
+        "file_location": "./code\\defines\\procs\\conflict.dm",
+        "line_number": 8,
+        "arguments": [
+            "datum/combat_configuration/c_config",
+            "damage",
+            "armor=0",
+            "penetration=0",
+            "pen_armor_punch=0",
+            "damage_armor_punch=0",
+            "armor_integrity = 100"
+        ],
+        "comment": "armor_integrity - how effective in % armor is at the moment"
+    },
+    {
+        "proc_name": "armor_break_calculation",
+        "full_path": "proc/armor_break_calculation(datum/combat_configuration/c_config, damage, armor=0, penetration=0, pen_armor_punch=0, damage_armor_punch=0, armor_integrity = 100)",
+        "file_location": "./code\\defines\\procs\\conflict.dm",
+        "line_number": 59,
+        "arguments": [
+            "datum/combat_configuration/c_config",
+            "damage",
+            "armor=0",
+            "penetration=0",
+            "pen_armor_punch=0",
+            "damage_armor_punch=0",
+            "armor_integrity = 100"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "in_view",
+        "full_path": "/mob/proc/in_view(turf/T)",
+        "file_location": "./code\\defines\\procs\\hud.dm",
+        "line_number": 3,
+        "arguments": [
+            "turf/T"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "get_frequency_name",
+        "full_path": "proc/get_frequency_name(display_freq)",
+        "file_location": "./code\\defines\\procs\\radio.dm",
+        "line_number": 1,
+        "arguments": [
+            "display_freq"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "CreateGeneralRecord",
+        "full_path": "proc/CreateGeneralRecord()",
+        "file_location": "./code\\defines\\procs\\records.dm",
+        "line_number": 1,
+        "arguments": [],
+        "comment": null
+    },
+    {
+        "proc_name": "CreateSecurityRecord",
+        "full_path": "proc/CreateSecurityRecord(name as text, id as text)",
+        "file_location": "./code\\defines\\procs\\records.dm",
+        "line_number": 20,
+        "arguments": [
+            "name as text",
+            "id as text"
+        ],
+        "comment": null
+    },
+    {
+        "proc_name": "create_medical_record",
+        "full_path": "proc/create_medical_record(mob/living/carbon/human/H)",
+        "file_location": "./code\\defines\\procs\\records.dm",
+        "line_number": 29,
+        "arguments": [
+            "mob/living/carbon/human/H"
+        ],
+        "comment": null
+    }
+]

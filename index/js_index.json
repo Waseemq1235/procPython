@@ -1,0 +1,17 @@
+[
+    {
+        "proc_name": "send_byjax",
+        "full_path": "proc/send_byjax(receiver, control_id, target_element, new_content=null, callback=null, list/callback_args=null)",
+        "file_location": "./code\\js\\byjax.dm",
+        "line_number": 37,
+        "arguments": [
+            "receiver",
+            "control_id",
+            "target_element",
+            "new_content=null",
+            "callback=null",
+            "list/callback_args=null"
+        ],
+        "comment": null
+    }
+]
