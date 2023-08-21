@@ -1,15 +1,15 @@
 # Proc Search and Indexing Tool
 This repository provides tools to index and search for specific procs within .dm files. It's beneficial for probably no one, but it's cool.
 
-#🌟 Features
+# 🌟 Features
 Fuzzy Searching: Provides an ability to search for procs using fuzzy matching.
 Standard Searching: Direct string-based search.
 Flexible JSON Integration: Uses JSON files to store and retrieve indexed data. Allows searching across multiple JSONs or a specific one.
 GUI: Simple-to-use GUI based on Tkinter.
-#📁 Structure
+# 📁 Structure
 Indexing Script: Iterates over .dm files in your specified directory, identifying procs and creating a structured JSON index.
 Search Tool: A Tkinter GUI application to search the indexed procs either via direct string match or fuzzy matching.
-#🚀 Getting Started
+# 🚀 Getting Started
 ## Prerequisites
 Python 3.x
 fuzzywuzzy python package:
